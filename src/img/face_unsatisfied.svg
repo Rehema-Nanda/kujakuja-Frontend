@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="108px" viewBox="0 0 104 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Face - Happy </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.9%" y="-1.9%" width="104.2%" height="108.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.0901960784   0 0 0 0 0.11372549   0 0 0 0 0.129411765  0 0 0 0.14 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-2" cx="51.3333333" cy="51.3333333" r="51.3333333"></circle>
+        <path d="M44.2161803,10.4315037 L5.21503629,10.4315037 C2.33417239,10.4315037 0,8.09590019 0,5.21503629 C0,2.33560352 2.33417239,0 5.21503629,0 L44.2161803,0 C47.0970442,0 49.4326477,2.33560352 49.4326477,5.21503629 C49.4326477,8.09590019 47.0970442,10.4315037 44.2161803,10.4315037" id="path-4"></path>
+        <path d="M14.2592593,6.55885394 C14.2592593,10.1815852 11.0671376,13.1185185 7.12962963,13.1185185 C3.19212162,13.1185185 0,10.1815852 0,6.55885394 C0,2.93612273 3.19212162,0 7.12962963,0 C11.0671376,0 14.2592593,2.93612273 14.2592593,6.55885394" id="path-6"></path>
+        <path d="M14.2592593,6.55885394 C14.2592593,10.1815852 11.0669404,13.1185185 7.12918907,13.1185185 C3.19143775,13.1185185 0,10.1815852 0,6.55885394 C0,2.93612273 3.19143775,0 7.12918907,0 C11.0669404,0 14.2592593,2.93612273 14.2592593,6.55885394" id="path-8"></path>
+    </defs>
+    <g id="3.0.0---Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Landing-Page" transform="translate(-972.000000, -326.000000)">
+            <g id="Header">
+                <g id="Data-Cards" transform="translate(272.000000, 322.000000)">
+                    <g id="Card---Somalia" transform="translate(608.000000, 0.000000)">
+                        <g id="Face---Not-Happy" transform="translate(88.000000, 0.000000)">
+                            <g transform="translate(4.666667, 4.666667)">
+                                <g id="Color" filter="url(#filter-1)">
+                                    <mask id="mask-3" fill="white">
+                                        <use xlink:href="#path-2"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#D8D8D8" fill-rule="nonzero" xlink:href="#path-2"></use>
+                                    <g id="Color---Red" mask="url(#mask-3)" fill="#F8382B" fill-rule="nonzero">
+                                        <rect id="Rectangle-3" x="0" y="0" width="103" height="103"></rect>
+                                    </g>
+                                </g>
+                                <g id="Face" transform="translate(26.807407, 34.222222)">
+                                    <g id="Mouth" transform="translate(0.000000, 27.948148)">
+                                        <mask id="mask-5" fill="white">
+                                            <use xlink:href="#path-4"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-4"></use>
+                                        <g id="Color---Red---Dark" mask="url(#mask-5)" fill="#661414" fill-rule="nonzero">
+                                            <g transform="translate(-10.266667, -6.844444)" id="Rectangle-3">
+                                                <rect x="0" y="0" width="68" height="27"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="Eye" transform="translate(32.511111, 0.000000)">
+                                        <mask id="mask-7" fill="white">
+                                            <use xlink:href="#path-6"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-6"></use>
+                                        <g id="Color---Red---Dark" mask="url(#mask-7)" fill="#661414" fill-rule="nonzero">
+                                            <g transform="translate(-1.140741, -1.711111)" id="Rectangle-3">
+                                                <rect x="0" y="0" width="17" height="17"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="Eye" transform="translate(1.140741, 0.000000)">
+                                        <mask id="mask-9" fill="white">
+                                            <use xlink:href="#path-8"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-8"></use>
+                                        <g id="Color---Red---Dark" mask="url(#mask-9)" fill="#661414" fill-rule="nonzero">
+                                            <g transform="translate(-1.140741, -1.140741)" id="Rectangle-3">
+                                                <rect x="0" y="0" width="18" height="19"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

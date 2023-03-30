@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdeaCard component renders correctly 1`] = `
+"<IdeaCard idea={{...}} searchTag={[Function: mockConstructor]}>
+  <div className=\\"ideafeed-item\\">
+    <div className=\\"ideafeed-item-idea\\">
+      <Row tag=\\"div\\">
+        <div className=\\"row\\">
+          <p className=\\"small\\">
+            November 18, 2019
+             | 
+            Nyabiheke camp
+             |
+            <Button type=\\"button\\" className=\\"tag\\" value=\\"#TestTag1\\" onClick={[Function: mockConstructor]} color=\\"secondary\\" tag=\\"button\\">
+              <button type=\\"button\\" value=\\"#TestTag1\\" onClick={[Function: bound onClick]} className=\\"tag btn btn-secondary\\" aria-label={{...}}>
+                #TestTag1
+              </button>
+            </Button>
+            <Button type=\\"button\\" className=\\"tag\\" value=\\"#TestTag2\\" onClick={[Function: mockConstructor]} color=\\"secondary\\" tag=\\"button\\">
+              <button type=\\"button\\" value=\\"#TestTag2\\" onClick={[Function: bound onClick]} className=\\"tag btn btn-secondary\\" aria-label={{...}}>
+                #TestTag2
+              </button>
+            </Button>
+          </p>
+        </div>
+      </Row>
+      <div className=\\"idea\\" lang=\\"undefined-x-mtfrom-en\\">
+        &quot;
+        some random idea
+        &quot;
+      </div>
+      <div className=\\"translation-container\\">
+        <div className=\\"text\\">
+          <span className=\\"show-original\\" role=\\"presentation\\" onClick={[Function: onClick]}>
+             
+            English
+             
+          </span>
+        </div>
+        <div className=\\"google-badge\\">
+          <a href=\\"http://translate.google.com/\\" rel=\\"noopener noreferrer\\" target=\\"_blank\\">
+            <img src={{...}} alt=\\"\\" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div className=\\"ideafeed-item-details\\">
+      <div className=\\"toggle\\" role=\\"presentation\\" onClick={[Function: onClick]}>
+        <span>
+           
+          <FontAwesomeIcon icon=\\"caret-down\\">
+            <i className=\\"fa\\" />
+          </FontAwesomeIcon>
+        </span>
+      </div>
+    </div>
+  </div>
+</IdeaCard>"
+`;

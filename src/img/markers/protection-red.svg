@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="40px" viewBox="0 0 30 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Protection - Red</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="3.0.0---Front-End" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-476.000000, -765.000000)">
+            <g id="Markers" transform="translate(376.000000, 533.000000)">
+                <g id="Red" transform="translate(100.000000, 40.000000)">
+                    <g id="Protection---Red" transform="translate(0.000000, 192.000000)">
+                        <g id="Marker---Red">
+                            <path d="M26.3636364,37.7142857 C26.3636364,38.9771023 21.2080677,40 14.8490178,40 C8.48890198,40 3.33333333,38.9771023 3.33333333,37.7142857 C3.33333333,36.4514691 8.48890198,35.4285714 14.8490178,35.4285714 C21.2080677,35.4285714 26.3636364,36.4514691 26.3636364,37.7142857" id="Shadow" fill-opacity="0.2" fill="#2B3841" fill-rule="evenodd" filter="url(#filter-1)"></path>
+                            <path d="M15.0804718,36.8961678 L24.8853166,25.6455514 C27.5024376,22.9559692 29,19.3164147 29,15.4285714 C29,7.45368523 22.7255838,1 15,1 C7.27441619,1 1,7.45368523 1,15.4285714 C1,19.4471695 2.60069541,23.198365 5.37499141,25.9062641 L5.42617433,25.9600756 L15.0804718,36.8961678 Z" id="Combined-Shape" stroke-opacity="0.64" stroke="#661414" stroke-width="2" fill="#F8382B" fill-rule="nonzero"></path>
+                        </g>
+                        <path d="M15.1658379,25 C15.1658379,25 9.34793088,22.8642992 9.34793088,19.9690971 C9.34793088,17.5224027 9.08348056,13.3335096 9.00097206,12.0937665 C8.98722065,11.8800907 9.12050361,11.7044957 9.32889046,11.6611258 C10.2343684,11.4717794 12.743473,11 15.1658379,11 C17.5882029,11 20.1015387,11.4717794 21.0080744,11.6611258 C21.2175191,11.7044957 21.3508021,11.8811485 21.3370506,12.0937665 C21.2524265,13.3345674 20.983745,17.5224027 20.983745,19.9690971 C20.983745,22.8642992 15.1658379,25 15.1658379,25" id="Protection" fill="#661414"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

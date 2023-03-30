@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalFilterDropdownSearch component renders correctly 1`] = `
+"<GlobalFilterDropdownSearch items={{...}} itemLabelProperty=\\"name\\" setResults={[Function: mockConstructor]} className=\\"\\" searchTerm=\\"\\" setSearchTerm={[Function: setSearchTerm]}>
+  <div className=\\" globalfilter-search-container\\">
+    <div className=\\"map-controls-search-icon\\">
+      <FontAwesomeIcon icon=\\"search\\">
+        <i className=\\"fa\\" />
+      </FontAwesomeIcon>
+    </div>
+    <Input type=\\"text\\" onChange={[Function]} className=\\"map-controls-search\\" placeholder={[undefined]} defaultValue=\\"\\">
+      <input onChange={[Function]} placeholder={[undefined]} defaultValue=\\"\\" type=\\"text\\" className=\\"map-controls-search form-control\\" />
+    </Input>
+  </div>
+</GlobalFilterDropdownSearch>"
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="position-relative form-check"
+>
+  <label
+    className="map-controls-checkbox form-check-label"
+  >
+    <input
+      checked={false}
+      className="form-check-input"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    Uganda
+  </label>
+</div>
+`;

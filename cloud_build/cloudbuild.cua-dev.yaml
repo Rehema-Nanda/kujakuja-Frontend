@@ -1,0 +1,38 @@
+steps:
+
+# we're using Node.js v12 because Object.fromEntries (used in /src/helpers.js) is not supported in earlier versions
+- name: 'node:16.14.2'
+  entrypoint: 'npm'
+  args: ['install']
+
+#- name: 'node:16.14.2'
+#  entrypoint: 'npm'
+#  args: ['run', 'test']
+
+- name: 'eu.gcr.io/kujakuja-dev/cloud-build-api'
+  args: ['mv', 'src/AppConfig.js.template', 'src/AppConfig.js']
+
+- name: 'eu.gcr.io/kujakuja-dev/envsubst'
+  args: ['src/AppConfig.js']
+  env:
+  - 'GCP_PROJECT_ID=kujakuja-cua-dev'
+  - 'API_URL=https://api.dev.cua.kujakuja.com/api/v3/'
+  - 'LOGIN_REQUIRED=true'
+  - 'TOP_KEYWORDS_ENABLED=false'
+  - 'DATA_STUDIO_GRAPH_URL='
+  secretEnv:
+  - 'GOOGLE_TRANSLATE_API_KEY'
+
+- name: 'node:16.14.2'
+  entrypoint: 'npm'
+  args: ['run', 'build']
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy', '--promote', '--version=$TAG_NAME', '--project=kujakuja-cua-dev']
+
+secrets:
+  - kmsKeyName: projects/kujakuja-dev/locations/europe/keyRings/cloud-build/cryptoKeys/config-secrets
+    secretEnv:
+      GOOGLE_TRANSLATE_API_KEY: CiQAnpDxcfXYbbO7k36q/kVVn+ILwpEY+kVKiIK046Yf9HPrYsYSUAD8O7eK/L1ZAoPO+bOYHTe46PWJC6ZRoiAgl4On30MwyA1z2ryqVRzVMQjVSX4AeO2mvYM8kOIIqKCFcmnmefqjgSzdLR7b20poSmkoQn8b
+
+timeout: '1800s'

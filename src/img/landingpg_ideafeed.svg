@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="744px" height="528px" viewBox="0 0 744 528" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Dashboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="3.0.0---Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Landing-Page" transform="translate(-576.000000, -1707.000000)">
+            <g id="Section---Idea-Feed" transform="translate(0.000000, 1537.000000)">
+                <g id="Dashboard" transform="translate(576.000000, 170.000000)">
+                    <path d="M0,36 L744,36 L744,522 C744,525.313708 741.313708,528 738,528 L6,528 C2.6862915,528 4.05812251e-16,525.313708 0,522 L0,36 Z" id="BG" fill="#CCCCCC" fill-rule="nonzero"></path>
+                    <g id="Chrome">
+                        <g>
+                            <path d="M6,0 L738,0 C741.313708,-6.08718376e-16 744,2.6862915 744,6 L744,36 L0,36 L0,6 C-4.05812251e-16,2.6862915 2.6862915,6.08718376e-16 6,0 Z" id="Rectangle-3" fill="#E8E6E8"></path>
+                            <circle id="Oval-3" fill="#FF625A" cx="25.5" cy="18.5" r="5.5"></circle>
+                            <circle id="Oval-3-Copy" fill="#FFC12F" cx="43.5" cy="18.5" r="5.5"></circle>
+                            <circle id="Oval-3-Copy-2" fill="#29CE42" cx="61.5" cy="18.5" r="5.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+steps:
+
+# we're using Node.js v12 because Object.fromEntries (used in /src/helpers.js) is not supported in earlier versions
+- name: 'node:16.14.2'
+  entrypoint: 'npm'
+  args: ['install']
+
+#- name: 'node:16.14.2'
+#  entrypoint: 'npm'
+#  args: ['run', 'test']
+
+- name: 'eu.gcr.io/kujakuja-dev/cloud-build-api'
+  args: ['mv', 'src/AppConfig.js.template', 'src/AppConfig.js']
+
+- name: 'eu.gcr.io/kujakuja-dev/envsubst'
+  args: ['src/AppConfig.js']
+  env:
+  - 'GCP_PROJECT_ID=kujakuja-ofda-dev'
+  - 'API_URL=https://api.dev.ofda.kujakuja.com/api/v3/'
+  - 'LOGIN_REQUIRED=true'
+  - 'TOP_KEYWORDS_ENABLED=true'
+  - 'TOP_KEYWORDS_API_URL=https://kujakuja.co/kujakuja/ofda/keywords/v1'
+  - 'DATA_STUDIO_GRAPH_URL=https://datastudio.google.com/embed/reporting/1unHV3BKTDXHM2VwTL75ui8eCyWN91HGe/page/6kLq'
+  secretEnv:
+  - 'GOOGLE_TRANSLATE_API_KEY'
+  - 'TOP_KEYWORDS_LOGIN_USERNAME'
+  - 'TOP_KEYWORDS_LOGIN_PASSWORD'
+
+- name: 'node:16.14.2'
+  entrypoint: 'npm'
+  args: ['run', 'build']
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy', '--promote', '--version=$TAG_NAME', '--project=kujakuja-ofda-dev']
+
+secrets:
+  - kmsKeyName: projects/kujakuja-dev/locations/europe/keyRings/cloud-build/cryptoKeys/config-secrets
+    secretEnv:
+      GOOGLE_TRANSLATE_API_KEY: CiQAnpDxcfvrsavf/niokGRu271Pd98Vu+ESAStNcMF+dIQK7LYSUAD8O7eK+mm+XZcM+tsHBs6OUVkmqyFsa20mReAtoJlvsRRWANEwp0+KBEjOBFSHXPLNp23t+Ywl1b+Mzi+/3pBFuRnC2WUNaG3n8aByqrrr
+      TOP_KEYWORDS_LOGIN_USERNAME: CiQAnpDxcRFMxfZ+7Y3Cu6xbBdG7yogLpWKPNvPvBPUzHU1hrGISMQD8O7eKRYS4MbkN1lCMzI5+mxi86+xnyyuxqpQmMaInlUJBKas3djye6glfajqCiKQ=
+      TOP_KEYWORDS_LOGIN_PASSWORD: CiQAnpDxcR2cuRhBPB8/OfO4pFtooPqyaC9q9aPEmWtMFdbIi64SOQD8O7eKmfzAmu+KhOxfj555jAGvYCERKlE2BucMRnCbNXBytYaSKbS2IAXDXFsnC9gxrKEooPPUNw==
+
+timeout: '1800s'

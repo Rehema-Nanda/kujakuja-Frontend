@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ideafeed-page"
+>
+  <div
+    className="title-background-parent"
+  >
+    <div
+      className="title-background-shape"
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm-8"
+      >
+        <div
+          className="ideafeed-page-title"
+        >
+          <h1
+            className="left"
+          />
+          <p />
+        </div>
+      </div>
+      <div
+        className="col-sm-5 col-md-4"
+      >
+        <div
+          className="page-title"
+        >
+          <button
+            aria-label={null}
+            className="primary btn btn-primary"
+            onClick={[Function]}
+            type="button"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <div>
+          <div
+            className="globalfilter-container"
+          >
+            <div
+              className="globalfilter-desktop"
+            >
+              <div
+                className="globalfilter-search-container"
+              >
+                <div>
+                  <div
+                    className="map-controls-search-icon"
+                  >
+                    <i
+                      className="fa"
+                    />
+                  </div>
+                  <input
+                    className="map-controls-search form-control"
+                    defaultValue=""
+                    id="search"
+                    name=""
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="Search"
+                    type=""
+                  />
+                  Popover
+                </div>
+              </div>
+              <div
+                className="globalfilter-locations-container"
+              >
+                <div>
+                  <div
+                    className="map-controls-button"
+                    id="CountriesDropDown"
+                    onClick={[Function]}
+                    role="presentation"
+                  >
+                    <span
+                      className="badge badge-secondary badge-pill"
+                    >
+                      undefined
+                    </span>
+                     
+                    <div
+                      className="map-controls-button-caret"
+                    >
+                      <i
+                        className="fa"
+                      />
+                    </div>
+                  </div>
+                  Popover
+                </div>
+                <div
+                  className="globalfilter-locations-spacer"
+                />
+                <div>
+                  <div
+                    className="map-controls-button"
+                    id="LocationsDropDown"
+                    onClick={[Function]}
+                    role="presentation"
+                  >
+                    <span
+                      className="badge badge-secondary badge-pill"
+                    >
+                      undefined
+                    </span>
+                     
+                    <div
+                      className="map-controls-button-caret"
+                    >
+                      <i
+                        className="fa"
+                      />
+                    </div>
+                  </div>
+                  Popover
+                </div>
+              </div>
+              <div
+                className="globalfilter-calendar-container"
+              >
+                <div
+                  className="date-pickers-holder"
+                >
+                  <button
+                    className="left-right-button left-button"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="left-right-arrow left-arrow"
+                    />
+                  </button>
+                  <div
+                    className="react-datepicker-wrapper"
+                  >
+                    <div
+                      className="react-datepicker__input-container"
+                    >
+                      <input
+                        className="date-picker-startdate"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        readOnly={false}
+                        type="text"
+                        value="07/09/2019"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    className="dash "
+                  >
+                     - 
+                  </span>
+                  <div
+                    className="react-datepicker-wrapper"
+                  >
+                    <div
+                      className="react-datepicker__input-container"
+                    >
+                      <input
+                        className="date-picker-enddate "
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        readOnly={false}
+                        type="text"
+                        value="07/16/2019"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    className="left-right-button right-button"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="left-right-arrow right-arrow"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                className="globalfilter-service-container"
+              >
+                <div>
+                  <div
+                    className="map-controls-service-container"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="globalfilter-mobile"
+            >
+              <nav
+                className="navbar"
+              >
+                <a
+                  className="globalfilter-mobile-brand navbar-brand"
+                >
+                  <p />
+                </a>
+                <button
+                  className="navbar-toggler"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="navbar-toggler-icon"
+                  />
+                </button>
+                <div
+                  className="collapse navbar-collapse"
+                  style={Object {}}
+                >
+                  <div
+                    className="globalfilter-mobile-container"
+                  >
+                    <div>
+                      <div
+                        className="globalfilter-label fadein"
+                      >
+                        <p
+                          className="small"
+                        />
+                      </div>
+                      <div
+                        className="globalfilter-label fadein"
+                      >
+                        <p
+                          className="small"
+                        />
+                      </div>
+                      <div
+                        className="globalfilter-calendar-container fadein"
+                      >
+                        <button
+                          aria-label={null}
+                          className="globalfilter-mobile-button btn btn-secondary"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          07/10/2019
+                          <div
+                            className="globalfilter-button-caret"
+                          >
+                            <i
+                              className="fa"
+                            />
+                          </div>
+                        </button>
+                        <button
+                          aria-label={null}
+                          className="globalfilter-mobile-button btn btn-secondary"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          07/17/2019
+                          <div
+                            className="globalfilter-button-caret"
+                          >
+                            <i
+                              className="fa"
+                            />
+                          </div>
+                        </button>
+                      </div>
+                      <div
+                        className="globalfilter-locations-container fadein"
+                      >
+                        <button
+                          aria-label={null}
+                          className="globalfilter-mobile-button btn btn-secondary"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          Countries (0)
+                          <div
+                            className="globalfilter-button-caret"
+                          >
+                            <i
+                              className="fa"
+                            />
+                          </div>
+                        </button>
+                        <button
+                          aria-label={null}
+                          className="globalfilter-mobile-button btn btn-secondary"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          Locations (0)
+                          <div
+                            className="globalfilter-button-caret"
+                          >
+                            <i
+                              className="fa"
+                            />
+                          </div>
+                        </button>
+                      </div>
+                      <div
+                        className="globalfilter-locations-container fadein"
+                      >
+                        <div
+                          className="globalfilter-search-container fadein"
+                        >
+                          <div>
+                            <div
+                              className="map-controls-search-icon"
+                            >
+                              <i
+                                className="fa"
+                              />
+                            </div>
+                            <input
+                              className="map-controls-search form-control"
+                              defaultValue=""
+                              id="search"
+                              name=""
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              placeholder="Search"
+                              type=""
+                            />
+                            Popover
+                          </div>
+                        </div>
+                        <button
+                          aria-label={null}
+                          className="globalfilter-mobile-button btn btn-secondary"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          Service Points (0)
+                          <div
+                            className="globalfilter-button-caret"
+                          >
+                            <i
+                              className="fa"
+                            />
+                          </div>
+                        </button>
+                      </div>
+                      <div
+                        className="globalfilter-service-container fadein"
+                      >
+                        <div>
+                          <div
+                            className="map-controls-service-container"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="ideafeed-page-bg"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-10 offset-lg-1"
+        >
+          <div
+            className="ideafeed-feed"
+          >
+            <div
+              className="action-card-parent"
+            >
+              <span
+                className="no-actions"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section
+    className="footer"
+  >
+    <div
+      className="footer-details"
+    >
+      <div
+        className="footer-logo"
+      >
+        <img
+          alt="idea feed"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "footer-logo.svg",
+            }
+          }
+        />
+      </div>
+      <div
+        className="footer-social"
+      >
+        <div
+          className="social-instagram"
+          onClick={[Function]}
+        />
+        <div
+          className="social-fb"
+          onClick={[Function]}
+        />
+        <div
+          className="social-twitter"
+          onClick={[Function]}
+        />
+        <div
+          className="social-medium"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;

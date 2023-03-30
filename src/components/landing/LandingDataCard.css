@@ -1,0 +1,80 @@
+
+.data-card-container{
+    padding-top: 100px;
+    max-width: 920px;
+    margin: auto;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.data-card-container .data-card{
+    /* height: 300px; */
+    width: 288px;
+    background: #FFFFFF;
+    box-shadow: 0 24px 18px -10px rgba(23,29,33,0.08);
+    border-radius: 8px;
+    margin: 0px auto;
+    transition: all .20s;
+    cursor: pointer;
+    position: relative;
+    padding: 16px;
+    margin: 8px;
+    height: 360px;
+}
+
+.data-card-container .data-card:hover{
+    box-shadow: 0 32px 40px -10px rgba(23,29,33,0.08);
+    margin-top: -8px;
+}
+
+.data-card-face{
+    height: 112px;
+    width: 112px;
+    position: absolute;
+    left: calc(50% - 50px);
+    margin-top: -72px;
+    z-index: 1;
+}
+
+.data-card-map{
+    width: 100%;
+    height: 160px;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.mapboxgl-ctrl-attrib{
+    display: none !important;
+}
+
+.data-card-flag{
+    right: 12px;
+    bottom: 12px;
+    position: absolute;
+}
+
+.data-card-details{
+    width: 100%;
+    height: 88px;
+    margin-top: 16px;
+    display: flex;
+}
+
+.data-card-button-holder button{
+    width: 100%;
+}
+
+.data-card-button-holder{
+    margin-top: 16px;
+    width: 100%;
+    /* visibility: hidden; */
+    opacity: 1;
+    transition: visibility 0s, opacity 0.1s linear;
+}
+
+.data-card-container .data-card:hover .data-card-button-holder {
+    visibility: visible;
+    opacity: 1;
+}

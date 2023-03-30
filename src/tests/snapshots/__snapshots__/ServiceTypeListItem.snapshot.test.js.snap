@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="row service-type-container"
+  title="🙂 undefined | 😐 NaN"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-2 icon"
+      >
+        <img
+          alt="Test"
+          className="service-type-icon"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "generic_off.svg",
+            }
+          }
+        />
+      </div>
+      <div
+        className="col-5 service-title"
+      />
+      <div
+        className="col-5"
+      >
+        <div
+          className="summary-circle"
+          style={
+            Object {
+              "backgroundColor": "#00BA54",
+            }
+          }
+        />
+        <span
+          className="average false"
+        >
+          undefined responses
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

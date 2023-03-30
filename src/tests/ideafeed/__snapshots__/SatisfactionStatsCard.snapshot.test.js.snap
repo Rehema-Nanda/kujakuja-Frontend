@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SatisfactionStatsCard component renders correctly 1`] = `
+"<SatisfactionStatsCard ideasCount={100} satisfiedIdeaCount={60}>
+  <div className=\\"satisfaction-stats\\">
+    <div className=\\"header\\" />
+    <div className=\\"stats\\">
+      <div className=\\"stats-pie\\">
+        <div className=\\"pie-wrapper progress-60 style-2\\">
+          <span className=\\"label numbers_small numbers-small-card left-right-caption\\">
+            60.0
+            <span className=\\"smaller\\">
+              %
+            </span>
+          </span>
+          <div className=\\"pie\\">
+            <div className=\\"left-side half-circle 60 left-right-pie\\" />
+            <div className=\\"right-side half-circle 60 left-right-pie\\" />
+          </div>
+          <div className=\\"pie-shadow left-right-pie\\" />
+        </div>
+      </div>
+      <div className=\\"stats-numbers\\">
+        <div>
+          <img src={{...}} alt=\\"\\" />
+          <span>
+            60
+          </span>
+        </div>
+        <div>
+          <img src={{...}} alt=\\"\\" />
+          <span>
+            40
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</SatisfactionStatsCard>"
+`;

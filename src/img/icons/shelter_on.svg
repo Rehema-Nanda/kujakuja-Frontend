@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Shelter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shelter" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M0.4926584,6.1326121 C0.5071097,5.8120556 0.6792117,5.5309119 0.9642968,5.385085 C2.6603555,4.5153787 8.5788253,1.3820711 8.5788253,0 L9.0149923,0 C9.0149923,1.3794436 14.8139104,4.5048686 16.4915765,5.37983 C16.7766615,5.5295981 16.9487635,5.8120556 16.9632148,6.1339258 L17.4440495,17 L11.044745,17 C9.1687017,17 7.7472179,11.8632148 7.0640649,9.5680835 C6.574034,7.9166924 6.4374034,6.6055641 6.3993045,5.9920402 L6.3993045,16.548068 C6.3993045,16.7976816 6.1969861,17 5.9473725,17 L0,17 L0.4926584,6.1326121 Z" id="Shelter"></path>
+        </g>
+    </g>
+</svg>

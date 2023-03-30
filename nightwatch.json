@@ -1,0 +1,22 @@
+{
+    "src_folders" : ["src/tests/e2e"],
+    "output_folder" : "src/tests/e2e/e2e_tests_output",
+
+    "webdriver" : {
+      "start_process": true,
+      "server_path": "node_modules/.bin/chromedriver",
+      "port": 9515
+    },
+
+    "test_settings" : {
+      "default" : {
+        "desiredCapabilities": {
+          "browserName": "chrome",
+          "chromeOptions": {
+            "args": ["--window-size=1024,768"]
+          }
+        },
+        "launch_url" : "http://localhost:3000/datamap"
+      }
+    }
+}

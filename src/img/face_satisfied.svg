@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="108px" viewBox="0 0 104 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Face - Happy </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.9%" y="-1.9%" width="104.2%" height="108.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.0901960784   0 0 0 0 0.11372549   0 0 0 0 0.129411765  0 0 0 0.14 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-2" cx="51.3333333" cy="51.3333333" r="51.3333333"></circle>
+        <path d="M27.009202,21.0871648 C26.9931822,21.0871648 26.9788488,21.0871648 26.9628291,21.0871648 C12.2128833,21.061878 1.58506419,8.55758015 1.13904147,8.02487262 C-0.593617646,5.9538878 -0.318752988,2.87059009 1.75369281,1.13844772 C3.82276604,-0.590323088 6.89855215,-0.318911972 8.63289756,1.74195815 C8.75431017,1.88440684 16.8822099,11.3096214 27.0083588,11.3096214 L27.0311237,11.3096214 C32.8623015,11.3011925 38.5273802,8.08134636 43.8686919,1.74027237 C45.6080961,-0.324812213 48.694,-0.590323088 50.7597006,1.14940531 C52.8254013,2.8891337 53.0901482,5.97243142 51.3499008,8.03835889 C44.0567128,16.6965421 35.8672636,21.0871648 27.009202,21.0871648" id="path-4"></path>
+        <path d="M14.2663043,6.55371377 C14.2663043,10.1736059 11.0724082,13.1082375 7.13271139,13.1082375 C3.19301454,13.1082375 0,10.1736059 0,6.55371377 C0,2.93382169 3.19301454,0 7.13271139,0 C11.0724082,0 14.2663043,2.93382169 14.2663043,6.55371377" id="path-6"></path>
+        <path d="M14.2663043,6.55371377 C14.2663043,10.1736059 11.0726056,13.1082375 7.13315217,13.1082375 C3.19369876,13.1082375 0,10.1736059 0,6.55371377 C0,2.93382169 3.19369876,0 7.13315217,0 C11.0726056,0 14.2663043,2.93382169 14.2663043,6.55371377" id="path-8"></path>
+    </defs>
+    <g id="3.0.0---Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Landing-Page" transform="translate(-668.000000, -326.000000)">
+            <g id="Header">
+                <g id="Data-Cards" transform="translate(272.000000, 322.000000)">
+                    <g id="Card---Uganda" transform="translate(304.000000, 0.000000)">
+                        <g id="Face---Happy-" transform="translate(88.000000, 0.000000)">
+                            <g filter="url(#filter-1)" transform="translate(4.666667, 4.666667)">
+                                <g id="Color">
+                                    <mask id="mask-3" fill="white">
+                                        <use xlink:href="#path-2"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#D8D8D8" fill-rule="nonzero" xlink:href="#path-2"></use>
+                                    <g id="Color---Green" mask="url(#mask-3)" fill="#00BA54" fill-rule="nonzero">
+                                        <rect id="Rectangle-3" x="0" y="0" width="103" height="103"></rect>
+                                    </g>
+                                </g>
+                                <g id="Face" transform="translate(25.083333, 28.000000)">
+                                    <g id="Mouth" transform="translate(0.000000, 28.496169)">
+                                        <mask id="mask-5" fill="white">
+                                            <use xlink:href="#path-4"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-4"></use>
+                                        <g id="Color---Green---Dark" mask="url(#mask-5)" fill="#004C22" fill-rule="nonzero">
+                                            <g transform="translate(-9.701087, -3.419540)" id="Rectangle-3">
+                                                <rect x="0" y="0" width="68" height="27"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="Eye" transform="translate(2.853261, 0.000000)">
+                                        <mask id="mask-7" fill="white">
+                                            <use xlink:href="#path-6"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-6"></use>
+                                        <g id="Color---Green---Dark" mask="url(#mask-7)" fill="#004C22" fill-rule="nonzero">
+                                            <g transform="translate(-12.554348, -7.978927)" id="Rectangle-3">
+                                                <rect x="0" y="0" width="68" height="64"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="Eye" transform="translate(34.239130, 0.000000)">
+                                        <mask id="mask-9" fill="white">
+                                            <use xlink:href="#path-8"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-8"></use>
+                                        <g id="Color---Green---Dark" mask="url(#mask-9)" fill="#004C22" fill-rule="nonzero">
+                                            <g transform="translate(-2.282609, -1.709770)" id="Rectangle-3">
+                                                <rect x="0" y="0" width="19" height="19"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

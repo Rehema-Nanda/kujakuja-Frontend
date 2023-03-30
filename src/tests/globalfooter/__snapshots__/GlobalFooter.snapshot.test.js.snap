@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<section
+  className="footer"
+>
+  <div
+    className="footer-details"
+  >
+    <div
+      className="footer-logo"
+    >
+      <img
+        alt="idea feed"
+        src={
+          Object {
+            "ReactComponent": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "render": [Function],
+            },
+            "__esModule": true,
+            "default": "footer-logo.svg",
+          }
+        }
+      />
+    </div>
+    <div
+      className="footer-social"
+    >
+      <div
+        className="social-instagram"
+        onClick={[Function]}
+      />
+      <div
+        className="social-fb"
+        onClick={[Function]}
+      />
+      <div
+        className="social-twitter"
+        onClick={[Function]}
+      />
+      <div
+        className="social-medium"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</section>
+`;

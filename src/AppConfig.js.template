@@ -1,0 +1,58 @@
+export default class AppConfig {
+
+    static get GCP_PROJECT_ID() {
+        return "$GCP_PROJECT_ID";
+    }
+
+    static get API_URL() {
+        return "$API_URL";
+    }
+
+    static get LOGIN_REQUIRED() {
+        return $LOGIN_REQUIRED;
+    }
+
+    static get DEFAULT_LOGIN_EMAIL() {
+        return "website@kujakuja.com";
+    }
+
+    static get DEFAULT_LOGIN_PASSWORD() {
+        return "website_pass";
+    }
+
+    static get SITE_HEADER_DEFAULT_HIGHLIGHT_COLOUR() {
+        return "#FFC300";
+    }
+
+    static get SITE_HEADER_DEFAULT_TITLE_TEXT() {
+        return "Customer feedback";
+    }
+
+    static get GOOGLE_TRANSLATE_API_KEY() {
+        return "$GOOGLE_TRANSLATE_API_KEY";
+    }
+
+    static get TOP_KEYWORDS_ENABLED() {
+        return $TOP_KEYWORDS_ENABLED;
+    }
+
+    static get TOP_KEYWORDS_LOGIN_URL() {
+        return "https://kujakuja.co/login";
+    }
+
+    static get TOP_KEYWORDS_LOGIN_USERNAME() {
+        return "$TOP_KEYWORDS_LOGIN_USERNAME";
+    }
+
+    static get TOP_KEYWORDS_LOGIN_PASSWORD() {
+        return "$TOP_KEYWORDS_LOGIN_PASSWORD";
+    }
+
+    static get TOP_KEYWORDS_API_URL() {
+        return "$TOP_KEYWORDS_API_URL";
+    }
+
+    static get DATA_STUDIO_GRAPH_URL() {
+        return "$DATA_STUDIO_GRAPH_URL";
+    }
+}

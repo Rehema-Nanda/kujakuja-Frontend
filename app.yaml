@@ -1,0 +1,31 @@
+runtime: nodejs14
+service: default
+
+handlers:
+  # This static_files handler was added to ensure that service-worker.js is served with the correct mime type
+  # App Engine appears to be serving .js files with a mime type of text/plain, which causes both Chrome and Firefox to complain:
+  # "Error during service worker registration: DOMException: Failed to register a ServiceWorker: The script has an unsupported MIME type ('text/plain')."
+  - url: /service-worker\.js
+    static_files: build/service-worker.js
+    upload: build/service-worker\.js
+    mime_type: application/javascript
+    http_headers:
+      Cache-Control: no-cache
+
+  - url: /(.*\.(json|ico|js))$
+    static_files: build/\1
+    upload: build/.*\.(json|ico|js)$
+    http_headers:
+      Cache-Control: no-cache
+
+  - url: /static
+    static_dir: build/static
+    expiration: 365d
+
+  - url: /.*
+    secure: always
+    redirect_http_response_code: 301
+    static_files: build/index.html
+    upload: build/index\.html
+    http_headers:
+      Cache-Control: no-cache

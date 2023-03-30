@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+"<div id={16} className=\\"col-sm snapshots-card fixed-height\\\\n                false\\">
+  <div className=\\"title\\">
+    Gihembe Camp
+    ,
+     
+    Rwanda
+    <p className=\\"subtitle\\">
+      <span className=\\"hidden\\">
+        Tue 16 Jul 2019
+         
+        ➝
+         
+        Wed 17 Jul 2019
+      </span>
+      <span className=\\"false\\">
+        Tue 16 Jul 2019
+      </span>
+    </p>
+  </div>
+  <div className=\\"featured-idea\\">
+    <h3 />
+    <p className=\\"false \\">
+      Test idea
+    </p>
+  </div>
+  <div className=\\"d-flex justify-content-center\\">
+    <div title=\\"92.0% | 🙂 554 | 😐 49\\" className=\\"previous-size right\\" style={{...}}>
+      <div className=\\"pie-wrapper progress-92 style-2\\">
+        <span className=\\"label numbers_small numbers-small-card left-right-caption\\">
+          92.0
+          <span style={{...}} className=\\"smaller\\">
+            %
+          </span>
+          <span style={{...}} className=\\"smaller-responses previous-next\\">
+            response
+            <span>
+              s
+            </span>
+          </span>
+        </span>
+        <div className=\\"pie\\">
+          <div className=\\"left-side half-circle happy left-right-pie\\" />
+          <div className=\\"right-side half-circle happy left-right-pie\\" />
+        </div>
+        <div className=\\"pie-shadow left-right-pie\\" />
+      </div>
+      <SnapshotCardDates singleDay={true} start={{...}} end={{...}} />
+    </div>
+    <div title=\\"81.0% | 🙂 13 | 😐 3\\" className=\\"region-size\\">
+      <div className=\\"pie-wrapper large progress-81 style-2\\">
+        <span className=\\"label numbers_small numbers-small-card\\">
+          81.0
+          <span style={{...}} className=\\"smaller\\">
+            %
+          </span>
+          <span style={{...}} className=\\"smaller-responses\\">
+            response
+            <span>
+              s
+            </span>
+          </span>
+        </span>
+        <div className=\\"pie\\">
+          <div className=\\"left-side half-circle happy\\" />
+          <div className=\\"right-side half-circle happy\\" />
+        </div>
+        <div className=\\"pie-shadow\\" />
+        <p id=\\"current-delta16\\" className=\\"current-delta false\\">
+          <FontAwesomeIcon style={{...}} icon=\\"arrow-down\\" />
+          <span style={{...}}>
+            12.0
+            %
+          </span>
+          <span style={{...}}>
+            -
+          </span>
+        </p>
+      </div>
+      <SnapshotCardDates singleDay={true} start={{...}} end={{...}} />
+    </div>
+    <div title=\\"🙂 null | 😐 0\\" className=\\"previous-size left\\" style={{...}}>
+      <div className=\\"pie-wrapper progress-100 style-2\\">
+        <span className=\\"label numbers_small numbers-small-card left-right-caption\\">
+          <span style={{...}} className=\\"smaller\\">
+            %
+          </span>
+          <span style={{...}} className=\\"smaller-responses previous-next\\">
+            response
+            <span>
+              s
+            </span>
+          </span>
+        </span>
+        <div className=\\"pie\\">
+          <div className=\\"left-side half-circle insignificant left-right-pie\\" />
+          <div className=\\"right-side half-circle insignificant left-right-pie\\" />
+        </div>
+        <div className=\\"pie-shadow left-right-pie\\" />
+      </div>
+      <SnapshotCardDates singleDay={true} start={{...}} end={{...}} />
+    </div>
+  </div>
+  <div className=\\"service-types\\">
+    <h3 />
+    <ServiceTypeListItem serviceTypeName=\\"Nutrition \\" responses={11} average={91} satisfied={10} delta={-5.208333333333334} />
+  </div>
+  <div style={{...}}>
+    <button type=\\"button\\" onClick={[Function: onClick]} className=\\"btn btn-dark show-details false\\">
+      undefined
+    </button>
+  </div>
+  <div>
+    <button type=\\"button\\" onClick={[Function: onClick]} className=\\"btn btn-link download false\\">
+       
+      .png
+    </button>
+  </div>
+</div>"
+`;

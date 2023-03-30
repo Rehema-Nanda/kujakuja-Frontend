@@ -1,0 +1,38 @@
+steps:
+
+# we're using Node.js v12 because Object.fromEntries (used in /src/helpers.js) is not supported in earlier versions
+- name: 'node:16.14.2'
+  entrypoint: 'npm'
+  args: ['install']
+
+#- name: 'node:16.14.2'
+#  entrypoint: 'npm'
+#  args: ['run', 'test']
+
+- name: 'eu.gcr.io/kujakuja-dev/cloud-build-api'
+  args: ['mv', 'src/AppConfig.js.template', 'src/AppConfig.js']
+
+- name: 'eu.gcr.io/kujakuja-dev/envsubst'
+  args: ['src/AppConfig.js']
+  env:
+  - 'GCP_PROJECT_ID=kujakuja-raiseyourvoice-dev'
+  - 'API_URL=https://api.dev.raiseyourvoice.kujakuja.com/api/v3/'
+  - 'LOGIN_REQUIRED=false'
+  - 'TOP_KEYWORDS_ENABLED=false'
+  - 'DATA_STUDIO_GRAPH_URL=https://datastudio.google.com/embed/reporting/43774207-f0b3-427a-9dc1-354683d3c3e7/page/p_e6qk72nmsc'
+  secretEnv:
+  - 'GOOGLE_TRANSLATE_API_KEY'
+
+- name: 'node:16.14.2'
+  entrypoint: 'npm'
+  args: ['run', 'build']
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy', '--promote', '--version=$TAG_NAME', '--project=kujakuja-raiseyourvoice-dev']
+
+secrets:
+  - kmsKeyName: projects/kujakuja-dev/locations/europe/keyRings/cloud-build/cryptoKeys/config-secrets
+    secretEnv:
+      GOOGLE_TRANSLATE_API_KEY: CiQAnpDxcaND+92OJGidS1LCxsQH31LIM5FnE2C8oROFBgYrUwASTwD8O7eKXHcfHfPYWs28sWX8NZd1gSQadEXaCu7CcepVPDkcV5Lep80dhNu1C7JtLhLLTqQBgbytwWPu/GDSkqubANiZqetOSaZ1D2MEtAE=
+
+timeout: '1800s'

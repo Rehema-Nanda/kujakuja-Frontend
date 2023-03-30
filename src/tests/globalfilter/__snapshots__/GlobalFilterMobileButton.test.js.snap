@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<button
+  aria-label={null}
+  className="globalfilter-mobile-button btn btn-secondary"
+  onClick={[Function]}
+  type="button"
+>
+  Test
+  <div
+    className="globalfilter-button-caret"
+  >
+    <i
+      className="fa"
+    />
+  </div>
+</button>
+`;

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="100px"
+   width="100px"
+   fill="#cccccc"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 100 100"
+   id="svg1406"
+   sodipodi:docname="food_off.svg"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
+  <metadata
+     id="metadata1412">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1410" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="864"
+     inkscape:window-height="798"
+     id="namedview1408"
+     showgrid="false"
+     inkscape:zoom="4.52"
+     inkscape:cx="50"
+     inkscape:cy="50"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1406" />
+  <g
+     transform="matrix(1.1780953,0,0,1.318421,-8.8509085,-1272.1682)"
+     id="g1404">
+    <path
+       style="color:#000000;enable-background:accumulate"
+       d="m 50,975.36217 c -2.20914,0 -4,1.7909 -4,4 0,2.2091 1.79086,4 4,4 2.20914,0 4,-1.7909 4,-4 0,-2.2091 -1.79086,-4 -4,-4 z m 0,9 c -19.32995,0 -35,15.67013 -35,35.00003 H 85 C 85,1000.0323 69.32997,984.36217 50,984.36217 Z M 9,1021.3622 v 8 h 82 v -8 z"
+       fill="#cccccc"
+       stroke="none"
+       marker="none"
+       visibility="visible"
+       display="inline"
+       overflow="visible"
+       id="path1402" />
+  </g>
+</svg>

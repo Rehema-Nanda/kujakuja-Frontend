@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="date-pickers-holder"
+>
+  <button
+    className="left-right-button left-button"
+    onClick={[Function]}
+  >
+    <div
+      className="left-right-arrow left-arrow"
+    />
+  </button>
+  <div
+    className="react-datepicker-wrapper"
+  >
+    <div
+      className="react-datepicker__input-container"
+    >
+      <input
+        className="date-picker-startdate"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        readOnly={false}
+        type="text"
+        value="07/09/2019"
+      />
+    </div>
+  </div>
+  <span
+    className="dash "
+  >
+     - 
+  </span>
+  <div
+    className="react-datepicker-wrapper"
+  >
+    <div
+      className="react-datepicker__input-container"
+    >
+      <input
+        className="date-picker-enddate "
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        readOnly={false}
+        type="text"
+        value="07/16/2019"
+      />
+    </div>
+  </div>
+  <button
+    className="left-right-button right-button"
+    onClick={[Function]}
+  >
+    <div
+      className="left-right-arrow right-arrow"
+    />
+  </button>
+</div>
+`;

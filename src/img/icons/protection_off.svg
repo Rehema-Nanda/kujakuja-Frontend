@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="17px" viewBox="0 0 15 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Protection</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="3.0.0---Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Map--UI" transform="translate(-1017.000000, -148.000000)" fill="#CCCCCC">
+            <g id="Map-Nav" transform="translate(24.000000, 120.000000)">
+                <g id="Service-Buttons" transform="translate(788.000000, 16.000000)">
+                    <g id="Protection-Button" transform="translate(192.000000, 0.000000)">
+                        <path d="M20.4277632,28.8652964 C20.4277632,28.8652964 13.4191398,26.2924945 13.4191398,22.8047486 C13.4191398,19.8573039 13.100566,14.8110951 13.001171,13.3176212 C12.9846052,13.0602136 13.1451664,12.8486806 13.3962025,12.7964345 C14.4869992,12.5683356 17.5096273,12 20.4277632,12 C23.3458991,12 26.3736244,12.5683356 27.4656953,12.7964345 C27.7180058,12.8486806 27.878567,13.0614879 27.8620011,13.3176212 C27.7600575,14.8123694 27.4363865,19.8573039 27.4363865,22.8047486 C27.4363865,26.2924945 20.4277632,28.8652964 20.4277632,28.8652964" id="Protection"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

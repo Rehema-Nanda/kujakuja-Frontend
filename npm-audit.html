@@ -1,0 +1,915 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.1/build/styles/atom-one-dark.min.css">
+
+    <title>NPM Audit Report</title>
+    <meta name="description" content="13 known vulnerabilities found.">
+
+    <style>
+        pre {
+            background-color: #333333;
+            padding: 15px;
+        }
+
+        pre code {
+            color: #fff;
+        }
+    </style>
+
+</head>
+
+<body class="mb-3">
+    <div class="container">
+        <h1 class="mt-5 text-center">NPM Audit Report</h1>
+
+        <div class="text-center">
+            <div class="card-deck my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            13
+                        </h5>
+                        <p class="card-text">Known vulnerabilities</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            2,807
+                        </h5>
+                        <p class="card-text">Dependencies</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            April 5th 2022, 4:43:21 pm
+                        </h5>
+                        <p class="card-text">Last updated</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            0
+                        </h5>
+                        <p class="card-text">
+                            <span class="badge badge-danger">critical</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            2
+                        </h5>
+                        <p class="card-text">
+                            <span class="badge badge-warning">high</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            11
+                        </h5>
+                        <p class="card-text">
+                            <span class="badge badge-secondary">moderate</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            0
+                        </h5>
+                        <p class="card-text">
+                            <span class="badge badge-primary">low</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            0
+                        </h5>
+                        <p class="card-text">
+                            <span class="badge badge-info">info</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+
+                <table id="advisories" class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Module</th>
+                            <th scope="col">Severity</th>
+                            <th scope="col">CVEs</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <a href="https://github.com/advisories/GHSA-566m-qj78-rww5" data-toggle="modal" data-target="#advisory-modal-1064600">Regular Expression Denial of Service in postcss</a>
+                            </th>
+                            <td>
+                                <a href="https://npmjs.com/package/postcss" target="_blank"
+                                    rel="noopener">postcss</a>
+                            </td>
+                            <td data-order="3"><span
+                                    class="badge badge-secondary">moderate</span></td>
+                            <td>
+                                CWE-400
+                                , CVE-2021-23382
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <a href="https://github.com/advisories/GHSA-rp65-9cf3-cjxr" data-toggle="modal" data-target="#advisory-modal-1064864">Inefficient Regular Expression Complexity in nth-check</a>
+                            </th>
+                            <td>
+                                <a href="https://npmjs.com/package/nth-check" target="_blank"
+                                    rel="noopener">nth-check</a>
+                            </td>
+                            <td data-order="3"><span
+                                    class="badge badge-secondary">moderate</span></td>
+                            <td>
+                                CWE-1333
+                                , CVE-2021-3803
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <a href="https://github.com/advisories/GHSA-hwj9-h5mp-3pm3" data-toggle="modal" data-target="#advisory-modal-1065043">Regular Expression Denial of Service in postcss</a>
+                            </th>
+                            <td>
+                                <a href="https://npmjs.com/package/postcss" target="_blank"
+                                    rel="noopener">postcss</a>
+                            </td>
+                            <td data-order="3"><span
+                                    class="badge badge-secondary">moderate</span></td>
+                            <td>
+                                CWE-400
+                                , CVE-2021-23368
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <a href="https://github.com/advisories/GHSA-w8qv-6jwh-64r5" data-toggle="modal" data-target="#advisory-modal-1065114">Regular Expression Denial of Service in browserslist</a>
+                            </th>
+                            <td>
+                                <a href="https://npmjs.com/package/browserslist" target="_blank"
+                                    rel="noopener">browserslist</a>
+                            </td>
+                            <td data-order="3"><span
+                                    class="badge badge-secondary">moderate</span></td>
+                            <td>
+                                CWE-400
+                                , CVE-2021-23364
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <a href="https://github.com/advisories/GHSA-545q-3fg6-48m7" data-toggle="modal" data-target="#advisory-modal-1065405">Regular expression denial of service (ReDoS)</a>
+                            </th>
+                            <td>
+                                <a href="https://npmjs.com/package/html-parse-stringify2" target="_blank"
+                                    rel="noopener">html-parse-stringify2</a>
+                            </td>
+                            <td data-order="3"><span
+                                    class="badge badge-secondary">moderate</span></td>
+                            <td>
+                                CWE-400
+                                , CVE-2021-23346
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <a href="https://github.com/advisories/GHSA-5q6m-3h65-w53x" data-toggle="modal" data-target="#advisory-modal-1065429">Improper Neutralization of Special Elements used in an OS Command.</a>
+                            </th>
+                            <td>
+                                <a href="https://npmjs.com/package/react-dev-utils" target="_blank"
+                                    rel="noopener">react-dev-utils</a>
+                            </td>
+                            <td data-order="3"><span
+                                    class="badge badge-secondary">moderate</span></td>
+                            <td>
+                                CWE-78
+                                , CVE-2021-24033
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <a href="https://github.com/advisories/GHSA-5fw9-fq32-wv5p" data-toggle="modal" data-target="#advisory-modal-1065500">OS Command Injection in node-notifier</a>
+                            </th>
+                            <td>
+                                <a href="https://npmjs.com/package/node-notifier" target="_blank"
+                                    rel="noopener">node-notifier</a>
+                            </td>
+                            <td data-order="3"><span
+                                    class="badge badge-secondary">moderate</span></td>
+                            <td>
+                                CWE-78
+                                , CVE-2020-7789
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <a href="https://github.com/advisories/GHSA-93q8-gq69-wqmw" data-toggle="modal" data-target="#advisory-modal-1067300"> Inefficient Regular Expression Complexity in chalk/ansi-regex</a>
+                            </th>
+                            <td>
+                                <a href="https://npmjs.com/package/ansi-regex" target="_blank"
+                                    rel="noopener">ansi-regex</a>
+                            </td>
+                            <td data-order="3"><span
+                                    class="badge badge-secondary">moderate</span></td>
+                            <td>
+                                CWE-918,CWE-1333
+                                , CVE-2021-3807
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <a href="https://github.com/advisories/GHSA-ww39-953v-wcq6" data-toggle="modal" data-target="#advisory-modal-1067329">Regular expression denial of service in glob-parent</a>
+                            </th>
+                            <td>
+                                <a href="https://npmjs.com/package/glob-parent" target="_blank"
+                                    rel="noopener">glob-parent</a>
+                            </td>
+                            <td data-order="2"><span
+                                    class="badge badge-warning">high</span></td>
+                            <td>
+                                CWE-400
+                                , CVE-2020-28469
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1064600">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span class="badge badge-secondary">moderate</span>
+                        Regular Expression Denial of Service in postcss
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Module:
+                                    <a href="https://npmjs.com/package/postcss" target="_blank"
+                                        rel="noopener">postcss</a>
+                                </li>
+                                <li>Published: March 11th 2022 </li>
+                                <li>Reported by: </li>
+                                <li>CWE-400</li>
+                                <li>CVE-2021-23382</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Vulnerable: &lt;7.0.36</li>
+                                <li>Patched: &gt;&#x3D;7.0.36</li>
+                                <li>Exploitability: </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Overview</h3>
+                    <p class="card-text"><p>The package postcss versions before 7.0.36 or between 8.0.0 and 8.2.13 are vulnerable to Regular Expression Denial of Service (ReDoS) via getAnnotationURL() and loadAnnotation() in lib/previous-map.js. The vulnerable regexes are caused mainly by the sub-pattern /*\s* sourceMappingURL=(.*).</p>
+</p>
+
+                    <h3>Findings</h3>
+                    <ul>
+                        <li>react-scripts&gt;resolve-url-loader&gt;postcss </li>
+                    </ul>
+
+                    <h3>Remediation</h3>
+                    <p class="card-text"><p>Upgrade to version 7.0.36 or later</p>
+</p>
+                     
+                    <h3>References</h3>
+                    <p class="card-text"><ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-23382">https://nvd.nist.gov/vuln/detail/CVE-2021-23382</a></li>
+<li><a href="https://github.com/postcss/postcss/commit/2b1d04c867995e55124e0a165b7c6622c1735956">https://github.com/postcss/postcss/commit/2b1d04c867995e55124e0a165b7c6622c1735956</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1255641">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1255641</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JS-POSTCSS-1255640">https://snyk.io/vuln/SNYK-JS-POSTCSS-1255640</a></li>
+<li><a href="https://github.com/postcss/postcss/releases/tag/7.0.36">https://github.com/postcss/postcss/releases/tag/7.0.36</a></li>
+<li><a href="https://github.com/advisories/GHSA-566m-qj78-rww5">https://github.com/advisories/GHSA-566m-qj78-rww5</a></li>
+</ul>
+</p>
+                     
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-566m-qj78-rww5" target="_blank" rel="noopener">More about
+                        this vulnerability</a>
+                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1064864">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span class="badge badge-secondary">moderate</span>
+                        Inefficient Regular Expression Complexity in nth-check
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Module:
+                                    <a href="https://npmjs.com/package/nth-check" target="_blank"
+                                        rel="noopener">nth-check</a>
+                                </li>
+                                <li>Published: March 11th 2022 </li>
+                                <li>Reported by: </li>
+                                <li>CWE-1333</li>
+                                <li>CVE-2021-3803</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Vulnerable: &lt;2.0.1</li>
+                                <li>Patched: &gt;&#x3D;2.0.1</li>
+                                <li>Exploitability: </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Overview</h3>
+                    <p class="card-text"><p>nth-check is vulnerable to Inefficient Regular Expression Complexity</p>
+</p>
+
+                    <h3>Findings</h3>
+                    <ul>
+                        <li>react-scripts&gt;@svgr/webpack&gt;@svgr/plugin-svgo&gt;svgo&gt;css-select&gt;nth-check </li>
+                        <li>react-scripts&gt;optimize-css-assets-webpack-plugin&gt;cssnano&gt;cssnano-preset-default&gt;postcss-svgo&gt;svgo&gt;css-select&gt;nth-check </li>
+                    </ul>
+
+                    <h3>Remediation</h3>
+                    <p class="card-text"><p>Upgrade to version 2.0.1 or later</p>
+</p>
+                     
+                    <h3>References</h3>
+                    <p class="card-text"><ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-3803">https://nvd.nist.gov/vuln/detail/CVE-2021-3803</a></li>
+<li><a href="https://github.com/fb55/nth-check/commit/9894c1d2010870c351f66c6f6efcf656e26bb726">https://github.com/fb55/nth-check/commit/9894c1d2010870c351f66c6f6efcf656e26bb726</a></li>
+<li><a href="https://huntr.dev/bounties/8cf8cc06-d2cf-4b4e-b42c-99fafb0b04d0">https://huntr.dev/bounties/8cf8cc06-d2cf-4b4e-b42c-99fafb0b04d0</a></li>
+<li><a href="https://github.com/advisories/GHSA-rp65-9cf3-cjxr">https://github.com/advisories/GHSA-rp65-9cf3-cjxr</a></li>
+</ul>
+</p>
+                     
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-rp65-9cf3-cjxr" target="_blank" rel="noopener">More about
+                        this vulnerability</a>
+                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1065043">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span class="badge badge-secondary">moderate</span>
+                        Regular Expression Denial of Service in postcss
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Module:
+                                    <a href="https://npmjs.com/package/postcss" target="_blank"
+                                        rel="noopener">postcss</a>
+                                </li>
+                                <li>Published: March 11th 2022 </li>
+                                <li>Reported by: </li>
+                                <li>CWE-400</li>
+                                <li>CVE-2021-23368</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Vulnerable: &gt;&#x3D;7.0.0 &lt;7.0.36</li>
+                                <li>Patched: &gt;&#x3D;7.0.36</li>
+                                <li>Exploitability: </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Overview</h3>
+                    <p class="card-text"><p>The npm package <code>postcss</code> from 7.0.0 and before versions 7.0.36 and 8.2.10 is vulnerable to Regular Expression Denial of Service (ReDoS) during source map parsing.</p>
+</p>
+
+                    <h3>Findings</h3>
+                    <ul>
+                        <li>react-scripts&gt;resolve-url-loader&gt;postcss </li>
+                    </ul>
+
+                    <h3>Remediation</h3>
+                    <p class="card-text"><p>Upgrade to version 7.0.36 or later</p>
+</p>
+                     
+                    <h3>References</h3>
+                    <p class="card-text"><ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-23368">https://nvd.nist.gov/vuln/detail/CVE-2021-23368</a></li>
+<li><a href="https://github.com/postcss/postcss/commit/8682b1e4e328432ba692bed52326e84439cec9e4">https://github.com/postcss/postcss/commit/8682b1e4e328432ba692bed52326e84439cec9e4</a></li>
+<li><a href="https://github.com/postcss/postcss/commit/b6f3e4d5a8d7504d553267f80384373af3a3dec5">https://github.com/postcss/postcss/commit/b6f3e4d5a8d7504d553267f80384373af3a3dec5</a></li>
+<li><a href="https://lists.apache.org/thread.html/r00158f5d770d75d0655c5eef1bdbc6150531606c8f8bcb778f0627be@%3Cdev.myfaces.apache.org%3E">https://lists.apache.org/thread.html/r00158f5d770d75d0655c5eef1bdbc6150531606c8f8bcb778f0627be@%3Cdev.myfaces.apache.org%3E</a></li>
+<li><a href="https://lists.apache.org/thread.html/r16e295b4f02d81b79981237d602cb0b9e59709bafaa73ac98be7cef1@%3Cdev.myfaces.apache.org%3E">https://lists.apache.org/thread.html/r16e295b4f02d81b79981237d602cb0b9e59709bafaa73ac98be7cef1@%3Cdev.myfaces.apache.org%3E</a></li>
+<li><a href="https://lists.apache.org/thread.html/r49afb49b38748897211b1f89c3a64dc27f9049474322b05715695aab@%3Cdev.myfaces.apache.org%3E">https://lists.apache.org/thread.html/r49afb49b38748897211b1f89c3a64dc27f9049474322b05715695aab@%3Cdev.myfaces.apache.org%3E</a></li>
+<li><a href="https://lists.apache.org/thread.html/r5acd89f3827ad9a9cad6d24ed93e377f7114867cd98cfba616c6e013@%3Ccommits.myfaces.apache.org%3E">https://lists.apache.org/thread.html/r5acd89f3827ad9a9cad6d24ed93e377f7114867cd98cfba616c6e013@%3Ccommits.myfaces.apache.org%3E</a></li>
+<li><a href="https://lists.apache.org/thread.html/r8def971a66cf3e375178fbee752e1b04a812a047cc478ad292007e33@%3Cdev.myfaces.apache.org%3E">https://lists.apache.org/thread.html/r8def971a66cf3e375178fbee752e1b04a812a047cc478ad292007e33@%3Cdev.myfaces.apache.org%3E</a></li>
+<li><a href="https://lists.apache.org/thread.html/rad5af2044afb51668b1008b389ac815a28ecea9eb75ae2cab5a00ebb@%3Ccommits.myfaces.apache.org%3E">https://lists.apache.org/thread.html/rad5af2044afb51668b1008b389ac815a28ecea9eb75ae2cab5a00ebb@%3Ccommits.myfaces.apache.org%3E</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1244795">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1244795</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JS-POSTCSS-1090595">https://snyk.io/vuln/SNYK-JS-POSTCSS-1090595</a></li>
+<li><a href="https://github.com/postcss/postcss/commit/54cbf3c4847eb0fb1501b9d2337465439e849734">https://github.com/postcss/postcss/commit/54cbf3c4847eb0fb1501b9d2337465439e849734</a></li>
+<li><a href="https://github.com/advisories/GHSA-hwj9-h5mp-3pm3">https://github.com/advisories/GHSA-hwj9-h5mp-3pm3</a></li>
+</ul>
+</p>
+                     
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-hwj9-h5mp-3pm3" target="_blank" rel="noopener">More about
+                        this vulnerability</a>
+                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1065114">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span class="badge badge-secondary">moderate</span>
+                        Regular Expression Denial of Service in browserslist
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Module:
+                                    <a href="https://npmjs.com/package/browserslist" target="_blank"
+                                        rel="noopener">browserslist</a>
+                                </li>
+                                <li>Published: March 11th 2022 </li>
+                                <li>Reported by: </li>
+                                <li>CWE-400</li>
+                                <li>CVE-2021-23364</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Vulnerable: &gt;&#x3D;4.0.0 &lt;4.16.5</li>
+                                <li>Patched: &gt;&#x3D;4.16.5</li>
+                                <li>Exploitability: </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Overview</h3>
+                    <p class="card-text"><p>The package browserslist from 4.0.0 and before 4.16.5 are vulnerable to Regular Expression Denial of Service (ReDoS) during parsing of queries.</p>
+</p>
+
+                    <h3>Findings</h3>
+                    <ul>
+                        <li>react-scripts&gt;react-dev-utils&gt;browserslist </li>
+                    </ul>
+
+                    <h3>Remediation</h3>
+                    <p class="card-text"><p>Upgrade to version 4.16.5 or later</p>
+</p>
+                     
+                    <h3>References</h3>
+                    <p class="card-text"><ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-23364">https://nvd.nist.gov/vuln/detail/CVE-2021-23364</a></li>
+<li><a href="https://github.com/browserslist/browserslist/pull/593">https://github.com/browserslist/browserslist/pull/593</a></li>
+<li><a href="https://github.com/browserslist/browserslist/commit/c091916910dfe0b5fd61caad96083c6709b02d98">https://github.com/browserslist/browserslist/commit/c091916910dfe0b5fd61caad96083c6709b02d98</a></li>
+<li><a href="https://github.com/browserslist/browserslist/blob/e82f32d1d4100d6bc79ea0b6b6a2d281a561e33c/index.js%23L472-L474">https://github.com/browserslist/browserslist/blob/e82f32d1d4100d6bc79ea0b6b6a2d281a561e33c/index.js%23L472-L474</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1277182">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1277182</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JS-BROWSERSLIST-1090194">https://snyk.io/vuln/SNYK-JS-BROWSERSLIST-1090194</a></li>
+<li><a href="https://github.com/advisories/GHSA-w8qv-6jwh-64r5">https://github.com/advisories/GHSA-w8qv-6jwh-64r5</a></li>
+</ul>
+</p>
+                     
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-w8qv-6jwh-64r5" target="_blank" rel="noopener">More about
+                        this vulnerability</a>
+                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1065405">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span class="badge badge-secondary">moderate</span>
+                        Regular expression denial of service (ReDoS)
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Module:
+                                    <a href="https://npmjs.com/package/html-parse-stringify2" target="_blank"
+                                        rel="noopener">html-parse-stringify2</a>
+                                </li>
+                                <li>Published: March 11th 2022 </li>
+                                <li>Reported by: </li>
+                                <li>CWE-400</li>
+                                <li>CVE-2021-23346</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Vulnerable: &lt;&#x3D;2.0.1</li>
+                                <li>Patched: &lt;0.0.0</li>
+                                <li>Exploitability: </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Overview</h3>
+                    <p class="card-text"><p>This affects the package html-parse-stringify before 2.0.1; all versions of package html-parse-stringify2. Sending certain input could cause one of the regular expressions that is used for parsing to backtrack, freezing the process.</p>
+</p>
+
+                    <h3>Findings</h3>
+                    <ul>
+                        <li>react-i18next&gt;html-parse-stringify2 </li>
+                    </ul>
+
+                    <h3>Remediation</h3>
+                    <p class="card-text"><p>None</p>
+</p>
+                     
+                    <h3>References</h3>
+                    <p class="card-text"><ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-23346">https://nvd.nist.gov/vuln/detail/CVE-2021-23346</a></li>
+<li><a href="https://github.com/HenrikJoreteg/html-parse-stringify/commit/c7274a48e59c92b2b7e906fedf9065159e73fe12">https://github.com/HenrikJoreteg/html-parse-stringify/commit/c7274a48e59c92b2b7e906fedf9065159e73fe12</a></li>
+<li><a href="https://github.com/HenrikJoreteg/html-parse-stringify/blob/master/lib/parse.js%23L2">https://github.com/HenrikJoreteg/html-parse-stringify/blob/master/lib/parse.js%23L2</a></li>
+<li><a href="https://github.com/rayd/html-parse-stringify2/blob/master/lib/parse.js%23L2">https://github.com/rayd/html-parse-stringify2/blob/master/lib/parse.js%23L2</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1080633">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1080633</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JS-HTMLPARSESTRINGIFY-1079306">https://snyk.io/vuln/SNYK-JS-HTMLPARSESTRINGIFY-1079306</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JS-HTMLPARSESTRINGIFY2-1079307">https://snyk.io/vuln/SNYK-JS-HTMLPARSESTRINGIFY2-1079307</a></li>
+<li><a href="https://github.com/HenrikJoreteg/html-parse-stringify/releases/tag/v2.0.1">https://github.com/HenrikJoreteg/html-parse-stringify/releases/tag/v2.0.1</a></li>
+<li><a href="https://github.com/advisories/GHSA-545q-3fg6-48m7">https://github.com/advisories/GHSA-545q-3fg6-48m7</a></li>
+</ul>
+</p>
+                     
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-545q-3fg6-48m7" target="_blank" rel="noopener">More about
+                        this vulnerability</a>
+                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1065429">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span class="badge badge-secondary">moderate</span>
+                        Improper Neutralization of Special Elements used in an OS Command.
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Module:
+                                    <a href="https://npmjs.com/package/react-dev-utils" target="_blank"
+                                        rel="noopener">react-dev-utils</a>
+                                </li>
+                                <li>Published: March 11th 2022 </li>
+                                <li>Reported by: </li>
+                                <li>CWE-78</li>
+                                <li>CVE-2021-24033</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Vulnerable: &gt;&#x3D;0.4.0 &lt;11.0.4</li>
+                                <li>Patched: &gt;&#x3D;11.0.4</li>
+                                <li>Exploitability: </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Overview</h3>
+                    <p class="card-text"><p>react-dev-utils prior to v11.0.4 exposes a function, getProcessForPort, where an input argument is concatenated into a command string to be executed. This function is typically used from react-scripts (in Create React App projects), where the usage is safe. Only when this function is manually invoked with user-provided values (ie: by custom code) is there the potential for command injection. If you&#39;re consuming it from react-scripts then this issue does not affect you.</p>
+</p>
+
+                    <h3>Findings</h3>
+                    <ul>
+                        <li>react-scripts&gt;react-dev-utils </li>
+                    </ul>
+
+                    <h3>Remediation</h3>
+                    <p class="card-text"><p>Upgrade to version 11.0.4 or later</p>
+</p>
+                     
+                    <h3>References</h3>
+                    <p class="card-text"><ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-24033">https://nvd.nist.gov/vuln/detail/CVE-2021-24033</a></li>
+<li><a href="https://github.com/facebook/create-react-app/pull/10644">https://github.com/facebook/create-react-app/pull/10644</a></li>
+<li><a href="https://github.com/facebook/create-react-app/commit/f5e415f3a5b66f07dcc60aba1b445fa7cda97268">https://github.com/facebook/create-react-app/commit/f5e415f3a5b66f07dcc60aba1b445fa7cda97268</a></li>
+<li><a href="https://www.facebook.com/security/advisories/cve-2021-24033">https://www.facebook.com/security/advisories/cve-2021-24033</a></li>
+<li><a href="https://github.com/advisories/GHSA-5q6m-3h65-w53x">https://github.com/advisories/GHSA-5q6m-3h65-w53x</a></li>
+</ul>
+</p>
+                     
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-5q6m-3h65-w53x" target="_blank" rel="noopener">More about
+                        this vulnerability</a>
+                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1065500">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span class="badge badge-secondary">moderate</span>
+                        OS Command Injection in node-notifier
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Module:
+                                    <a href="https://npmjs.com/package/node-notifier" target="_blank"
+                                        rel="noopener">node-notifier</a>
+                                </li>
+                                <li>Published: March 11th 2022 </li>
+                                <li>Reported by: </li>
+                                <li>CWE-78</li>
+                                <li>CVE-2020-7789</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Vulnerable: &lt;8.0.1</li>
+                                <li>Patched: &gt;&#x3D;8.0.1</li>
+                                <li>Exploitability: </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Overview</h3>
+                    <p class="card-text"><p>This affects the package node-notifier before 8.0.1. It allows an attacker to run arbitrary commands on Linux machines due to the options params not being sanitised when being passed an array.</p>
+</p>
+
+                    <h3>Findings</h3>
+                    <ul>
+                        <li>react-scripts&gt;jest&gt;jest-cli&gt;@jest/core&gt;@jest/reporters&gt;node-notifier </li>
+                    </ul>
+
+                    <h3>Remediation</h3>
+                    <p class="card-text"><p>Upgrade to version 8.0.1 or later</p>
+</p>
+                     
+                    <h3>References</h3>
+                    <p class="card-text"><ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-7789">https://nvd.nist.gov/vuln/detail/CVE-2020-7789</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JS-NODENOTIFIER-1035794">https://snyk.io/vuln/SNYK-JS-NODENOTIFIER-1035794</a></li>
+<li><a href="https://github.com/mikaelbr/node-notifier/commit/5d62799dab88505a709cd032653b2320c5813fce">https://github.com/mikaelbr/node-notifier/commit/5d62799dab88505a709cd032653b2320c5813fce</a></li>
+<li><a href="https://github.com/mikaelbr/node-notifier/blob/master/lib/utils.js%23L303">https://github.com/mikaelbr/node-notifier/blob/master/lib/utils.js%23L303</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1050371">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1050371</a></li>
+<li><a href="https://github.com/advisories/GHSA-5fw9-fq32-wv5p">https://github.com/advisories/GHSA-5fw9-fq32-wv5p</a></li>
+</ul>
+</p>
+                     
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-5fw9-fq32-wv5p" target="_blank" rel="noopener">More about
+                        this vulnerability</a>
+                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1067300">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span class="badge badge-secondary">moderate</span>
+                         Inefficient Regular Expression Complexity in chalk/ansi-regex
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Module:
+                                    <a href="https://npmjs.com/package/ansi-regex" target="_blank"
+                                        rel="noopener">ansi-regex</a>
+                                </li>
+                                <li>Published: September 20th 2021 </li>
+                                <li>Reported by: </li>
+                                <li>CWE-918,CWE-1333</li>
+                                <li>CVE-2021-3807</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Vulnerable: &gt;&#x3D;3.0.0 &lt;3.0.1</li>
+                                <li>Patched: &gt;&#x3D;3.0.1</li>
+                                <li>Exploitability: </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Overview</h3>
+                    <p class="card-text"><p>ansi-regex is vulnerable to Inefficient Regular Expression Complexity</p>
+</p>
+
+                    <h3>Findings</h3>
+                    <ul>
+                        <li>react-scripts&gt;jest-watch-typeahead&gt;jest-watcher&gt;string-length&gt;strip-ansi&gt;ansi-regex </li>
+                        <li>react-scripts&gt;jest&gt;jest-cli&gt;@jest/core&gt;@jest/reporters&gt;string-length&gt;strip-ansi&gt;ansi-regex </li>
+                    </ul>
+                    <ul>
+                        <li>nightwatch&gt;mocha&gt;wide-align&gt;string-width&gt;strip-ansi&gt;ansi-regex </li>
+                    </ul>
+
+                    <h3>Remediation</h3>
+                    <p class="card-text"><p>Upgrade to version 3.0.1 or later</p>
+</p>
+                     
+                    <h3>References</h3>
+                    <p class="card-text"><ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-3807">https://nvd.nist.gov/vuln/detail/CVE-2021-3807</a></li>
+<li><a href="https://github.com/chalk/ansi-regex/commit/8d1d7cdb586269882c4bdc1b7325d0c58c8f76f9">https://github.com/chalk/ansi-regex/commit/8d1d7cdb586269882c4bdc1b7325d0c58c8f76f9</a></li>
+<li><a href="https://huntr.dev/bounties/5b3cf33b-ede0-4398-9974-800876dfd994">https://huntr.dev/bounties/5b3cf33b-ede0-4398-9974-800876dfd994</a></li>
+<li><a href="https://github.com/chalk/ansi-regex/issues/38#issuecomment-924086311">https://github.com/chalk/ansi-regex/issues/38#issuecomment-924086311</a></li>
+<li><a href="https://app.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908">https://app.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908</a></li>
+<li><a href="https://github.com/chalk/ansi-regex/issues/38#issuecomment-925924774">https://github.com/chalk/ansi-regex/issues/38#issuecomment-925924774</a></li>
+<li><a href="https://github.com/chalk/ansi-regex/releases/tag/v6.0.1">https://github.com/chalk/ansi-regex/releases/tag/v6.0.1</a></li>
+<li><a href="https://github.com/advisories/GHSA-93q8-gq69-wqmw">https://github.com/advisories/GHSA-93q8-gq69-wqmw</a></li>
+</ul>
+</p>
+                     
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-93q8-gq69-wqmw" target="_blank" rel="noopener">More about
+                        this vulnerability</a>
+                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="advisory-modal-1067329">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <span class="badge badge-warning">high</span>
+                        Regular expression denial of service in glob-parent
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Module:
+                                    <a href="https://npmjs.com/package/glob-parent" target="_blank"
+                                        rel="noopener">glob-parent</a>
+                                </li>
+                                <li>Published: June 7th 2021 </li>
+                                <li>Reported by: </li>
+                                <li>CWE-400</li>
+                                <li>CVE-2020-28469</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Vulnerable: &lt;5.1.2</li>
+                                <li>Patched: &gt;&#x3D;5.1.2</li>
+                                <li>Exploitability: </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Overview</h3>
+                    <p class="card-text"><p>This affects the package glob-parent before 5.1.2. The enclosure regex used to check for strings ending in enclosure containing path separator.</p>
+</p>
+
+                    <h3>Findings</h3>
+                    <ul>
+                        <li>react-scripts&gt;webpack&gt;watchpack&gt;watchpack-chokidar2&gt;chokidar&gt;glob-parent </li>
+                    </ul>
+                    <ul>
+                        <li>react-scripts&gt;webpack-dev-server&gt;chokidar&gt;glob-parent </li>
+                    </ul>
+
+                    <h3>Remediation</h3>
+                    <p class="card-text"><p>Upgrade to version 5.1.2 or later</p>
+</p>
+                     
+                    <h3>References</h3>
+                    <p class="card-text"><ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-28469">https://nvd.nist.gov/vuln/detail/CVE-2020-28469</a></li>
+<li><a href="https://github.com/gulpjs/glob-parent/pull/36">https://github.com/gulpjs/glob-parent/pull/36</a></li>
+<li><a href="https://github.com/gulpjs/glob-parent/blob/6ce8d11f2f1ed8e80a9526b1dc8cf3aa71f43474/index.js%23L9">https://github.com/gulpjs/glob-parent/blob/6ce8d11f2f1ed8e80a9526b1dc8cf3aa71f43474/index.js%23L9</a></li>
+<li><a href="https://github.com/gulpjs/glob-parent/releases/tag/v5.1.2">https://github.com/gulpjs/glob-parent/releases/tag/v5.1.2</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBES128-1059093">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBES128-1059093</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1059092">https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1059092</a></li>
+<li><a href="https://snyk.io/vuln/SNYK-JS-GLOBPARENT-1016905">https://snyk.io/vuln/SNYK-JS-GLOBPARENT-1016905</a></li>
+<li><a href="https://www.oracle.com/security-alerts/cpujan2022.html">https://www.oracle.com/security-alerts/cpujan2022.html</a></li>
+<li><a href="https://github.com/advisories/GHSA-ww39-953v-wcq6">https://github.com/advisories/GHSA-ww39-953v-wcq6</a></li>
+</ul>
+</p>
+                     
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-raised mr-2 btn-primary" href="https://github.com/advisories/GHSA-ww39-953v-wcq6" target="_blank" rel="noopener">More about
+                        this vulnerability</a>
+                    <button type="button" class="btn btn-raised btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#advisories').DataTable({
+                order: [[2, 'asc']]
+            });
+        });
+    </script>
+</body>
+
+</html>

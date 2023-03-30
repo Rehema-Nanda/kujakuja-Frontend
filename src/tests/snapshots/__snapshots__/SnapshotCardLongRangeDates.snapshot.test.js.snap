@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<p
+  className="previous-next"
+>
+  Sat 15 Jun
+  <br />
+  ➝  
+  Wed 17 Jul
+</p>
+`;

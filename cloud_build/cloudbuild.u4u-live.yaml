@@ -1,0 +1,33 @@
+steps:
+
+- name: 'node:16.14.2'
+  entrypoint: 'npm'
+  args: ['install']
+
+- name: 'eu.gcr.io/kujakuja-dev/cloud-build-api'
+  args: ['mv', 'src/AppConfig.js.template', 'src/AppConfig.js']
+
+- name: 'eu.gcr.io/kujakuja-dev/envsubst'
+  args: ['src/AppConfig.js']
+  env:
+  - 'GCP_PROJECT_ID=kujakuja-u4u-live'
+  - 'API_URL=https://api.u4u.kujakuja.com/api/v3/'
+  - 'LOGIN_REQUIRED=true'
+  - 'TOP_KEYWORDS_ENABLED=false'
+  - 'DATA_STUDIO_GRAPH_URL='
+  secretEnv:
+  - 'GOOGLE_TRANSLATE_API_KEY'
+
+- name: 'node:16.14.2'
+  entrypoint: 'npm'
+  args: ['run', 'build']
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy', '--promote', '--version=$TAG_NAME', '--project=kujakuja-u4u-live']
+
+secrets:
+  - kmsKeyName: projects/kujakuja-dev/locations/europe/keyRings/cloud-build/cryptoKeys/config-secrets
+    secretEnv:
+      GOOGLE_TRANSLATE_API_KEY: CiQAnpDxcV8vHhbI/PNUkGRne4JPS/e2nUPX5tI3orrawp0ii+ASUAD8O7eKuWR2FSRwlTXKr5HwK0y807L9+hj0RUJw4cJk+oJ4VqrPkmkK8W+42JZ7WIUbaZ82PI9JKaGqtFg72sVHvqOORX+kGBoX8UGFyKha
+
+timeout: '1800s'

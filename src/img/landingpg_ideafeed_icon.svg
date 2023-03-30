@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="99px" viewBox="0 0 98 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="32" cy="32" r="32"></circle>
+        <filter x="-65.6%" y="-37.5%" width="231.2%" height="231.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="3" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="18" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0901960784   0 0 0 0 0.11372549   0 0 0 0 0.129411765  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="3.0.0---Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Landing-Page" transform="translate(-104.000000, -1811.000000)" fill-rule="nonzero">
+            <g id="Section---Idea-Feed" transform="translate(0.000000, 1587.000000)">
+                <g id="Section-Copy" transform="translate(119.000000, 224.000000)">
+                    <g id="Icon" transform="translate(2.000000, 0.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFC300" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="comment" transform="translate(17.723077, 20.676923)" fill="#FFFFFF">
+                            <path d="M29.5384615,10.6657374 C29.5384615,16.5626596 22.9236532,21.3314749 14.7705174,21.3314749 C12.2938101,21.3314749 9.95555226,20.8904877 7.90444891,20.1110684 C5.83796228,21.710929 3.29972188,22.6903309 0.602520968,22.9672298 C0.335877532,22.9979964 0.0794896129,22.8236526 0.0128287539,22.5723924 C-0.0538321051,22.3160045 0.15127823,22.157044 0.351260807,21.9673169 C1.34091818,21.0238094 2.54081364,20.2854122 3.01256741,17.1164575 C1.12555232,15.3268698 0.00257323716,13.0911672 0.00257323716,10.6657374 C0.00257323716,4.77394306 6.61738155,0 14.7705174,0 C22.9236532,0 29.5384615,4.77394306 29.5384615,10.6657374 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

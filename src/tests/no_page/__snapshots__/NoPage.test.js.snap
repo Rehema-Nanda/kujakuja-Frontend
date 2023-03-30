@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoPage component render correctly 1`] = `
+"<BrowserRouter>
+  <Router history={{...}}>
+    <NoPage history={{...}}>
+      <div>
+        <div className=\\"no-page\\">
+          <div className=\\"title-background-parent\\">
+            <div className=\\"title-background-shape\\" />
+          </div>
+          <Container tag=\\"div\\">
+            <div className=\\"container\\">
+              <Row tag=\\"div\\">
+                <div className=\\"row\\">
+                  <Col sm=\\"12\\" md={{...}} tag=\\"div\\" widths={{...}}>
+                    <div className=\\"col-sm-12 col-md-6 offset-md-3\\">
+                      <div className=\\"no-page-container\\">
+                        <div className=\\"no-page-icon\\">
+                          <img src=\\"face_unsatisfied.png\\" alt=\\"alt\\" />
+                        </div>
+                        <div className=\\"no-page-content\\">
+                          <h2 />
+                          <p />
+                        </div>
+                        <div className=\\"no-page-buttons\\">
+                          <Row tag=\\"div\\">
+                            <div className=\\"row\\">
+                              <Col xs=\\"6\\" className=\\"no-page-option\\" tag=\\"div\\" widths={{...}}>
+                                <div className=\\"no-page-option col-6\\">
+                                  <span className=\\"no-page-back\\" onClick={[Function: mockConstructor]}>
+                                    <FontAwesomeIcon icon={{...}}>
+                                      <i className=\\"fa\\" />
+                                    </FontAwesomeIcon>
+                                     
+                                  </span>
+                                </div>
+                              </Col>
+                              <Col xs=\\"6\\" className=\\"no-page-option\\" tag=\\"div\\" widths={{...}}>
+                                <div className=\\"no-page-option col-6\\">
+                                  <Link to=\\"/datamap\\">
+                                    <LinkAnchor href=\\"/datamap\\" navigate={[Function: navigate]}>
+                                      <a href=\\"/datamap\\" onClick={[Function: onClick]}>
+                                        <span className=\\"no-page-back\\">
+                                           
+                                          <FontAwesomeIcon icon={{...}}>
+                                            <i className=\\"fa\\" />
+                                          </FontAwesomeIcon>
+                                        </span>
+                                      </a>
+                                    </LinkAnchor>
+                                  </Link>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                        </div>
+                      </div>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Container>
+        </div>
+        <GlobalFooter>
+          <section className=\\"footer\\">
+            <div className=\\"footer-details\\">
+              <div className=\\"footer-logo\\">
+                <img src={{...}} alt=\\"idea feed\\" />
+              </div>
+              <div className=\\"footer-social\\">
+                <div className=\\"social-instagram\\" onClick={[Function: onClick]} />
+                <div className=\\"social-fb\\" onClick={[Function: onClick]} />
+                <div className=\\"social-twitter\\" onClick={[Function: onClick]} />
+                <div className=\\"social-medium\\" onClick={[Function: onClick]} />
+              </div>
+            </div>
+          </section>
+        </GlobalFooter>
+      </div>
+    </NoPage>
+  </Router>
+</BrowserRouter>"
+`;

@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly renders correctly 1`] = `
+"<ActionForm allCountries={{...}} allLocations={{...}} serviceTypes={{...}}>
+  <div className=\\"page-container\\">
+    <div className=\\"title-background-parent\\">
+      <div className=\\"title-background-shape\\" />
+    </div>
+    <Container tag=\\"div\\">
+      <div className=\\"container\\">
+        <Row tag=\\"div\\">
+          <div className=\\"row\\">
+            <Col tag=\\"div\\" widths={{...}}>
+              <div className=\\"col\\">
+                <div>
+                  <h1 className=\\"pageDescription\\" />
+                  <p />
+                </div>
+              </div>
+            </Col>
+            <Col tag=\\"div\\" widths={{...}}>
+              <div className=\\"col\\">
+                <div className=\\"pageReturn\\">
+                  <Button color=\\"primary\\" className=\\"primary\\" onClick={[Function]} tag=\\"button\\">
+                    <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"primary btn btn-primary\\" aria-label={{...}} />
+                  </Button>
+                </div>
+              </div>
+            </Col>
+          </div>
+        </Row>
+      </div>
+    </Container>
+    <Container tag=\\"div\\">
+      <div className=\\"container\\">
+        <Form tag=\\"form\\">
+          <form className=\\"\\">
+            <div className=\\"card-1\\">
+              <h4 />
+              <Label for=\\"title\\" tag=\\"label\\" widths={{...}}>
+                <label htmlFor=\\"title\\" className=\\"\\" />
+              </Label>
+              <FormGroup tag=\\"div\\">
+                <div className=\\"position-relative form-group\\">
+                  <select id=\\"country\\" name=\\"country\\" value=\\"\\" onChange={[Function: bound ]}>
+                    <option value=\\"\\" />
+                  </select>
+                  <select id=\\"location\\" name=\\"location\\" value=\\"\\" onChange={[Function: bound ]} disabled={true}>
+                    <option value=\\"\\" />
+                  </select>
+                </div>
+              </FormGroup>
+              <FormGroup tag=\\"div\\">
+                <div className=\\"position-relative form-group\\">
+                  <Label for=\\"reporter\\" tag=\\"label\\" widths={{...}}>
+                    <label htmlFor=\\"reporter\\" className=\\"\\" />
+                  </Label>
+                  <Input type=\\"text\\" name=\\"reporter\\" value=\\"\\" onChange={[Function: bound ]} invalid={false}>
+                    <input name=\\"reporter\\" value=\\"\\" onChange={[Function: bound ]} type=\\"text\\" className=\\"form-control\\" />
+                  </Input>
+                </div>
+              </FormGroup>
+            </div>
+            <div className=\\"card-1\\">
+              <h4 />
+              <Label for=\\"question\\" tag=\\"label\\" widths={{...}}>
+                <label htmlFor=\\"question\\" className=\\"\\" />
+              </Label>
+              <FormGroup tag=\\"div\\">
+                <div className=\\"position-relative form-group\\">
+                  <Input type=\\"select\\" name=\\"sector\\" onChange={[Function: bound ]}>
+                    <select name=\\"sector\\" onChange={[Function: bound ]} className=\\"form-control\\">
+                      <option value=\\"\\" />
+                    </select>
+                  </Input>
+                </div>
+              </FormGroup>
+              <FormGroup tag=\\"div\\">
+                <div className=\\"position-relative form-group\\">
+                  <Label for=\\"implementor\\" tag=\\"label\\" widths={{...}}>
+                    <label htmlFor=\\"implementor\\" className=\\"\\" />
+                  </Label>
+                  <Input type=\\"text\\" name=\\"implementor\\" placeholder={[undefined]} value=\\"\\" onChange={[Function: bound ]} invalid={false}>
+                    <input name=\\"implementor\\" placeholder={[undefined]} value=\\"\\" onChange={[Function: bound ]} type=\\"text\\" className=\\"form-control\\" />
+                  </Input>
+                </div>
+              </FormGroup>
+              <label htmlFor=\\"lname\\" />
+              <FormGroup tag=\\"div\\">
+                <div className=\\"position-relative form-group\\">
+                  <select id=\\"month\\" name=\\"month\\" value=\\"March\\" onChange={[Function: bound ]}>
+                    <option>
+                      January
+                    </option>
+                    <option>
+                      February
+                    </option>
+                    <option>
+                      March
+                    </option>
+                    <option>
+                      April
+                    </option>
+                    <option>
+                      May
+                    </option>
+                    <option>
+                      June
+                    </option>
+                    <option>
+                      July
+                    </option>
+                    <option>
+                      August
+                    </option>
+                    <option>
+                      September
+                    </option>
+                    <option>
+                      October
+                    </option>
+                    <option>
+                      November
+                    </option>
+                    <option>
+                      December
+                    </option>
+                  </select>
+                  <select id=\\"year\\" name=\\"year\\" value=\\"2022\\" onChange={[Function: bound ]}>
+                    <option>
+                      2022
+                    </option>
+                    <option>
+                      2021
+                    </option>
+                    <option>
+                      2020
+                    </option>
+                    <option>
+                      2019
+                    </option>
+                    <option>
+                      2018
+                    </option>
+                    <option>
+                      2017
+                    </option>
+                    <option>
+                      2016
+                    </option>
+                    <option>
+                      2015
+                    </option>
+                    <option>
+                      2014
+                    </option>
+                    <option>
+                      2013
+                    </option>
+                    <option>
+                      2012
+                    </option>
+                    <option>
+                      2011
+                    </option>
+                    <option>
+                      2010
+                    </option>
+                    <option>
+                      2009
+                    </option>
+                  </select>
+                </div>
+              </FormGroup>
+              <FormGroup tag=\\"div\\">
+                <div className=\\"position-relative form-group\\">
+                  <Label for=\\"lname\\" tag=\\"label\\" widths={{...}}>
+                    <label htmlFor=\\"lname\\" className=\\"\\" />
+                  </Label>
+                  <Input type=\\"text\\" name=\\"title\\" value=\\"\\" placeholder={[undefined]} maxLength=\\"255\\" onChange={[Function: bound ]} invalid={false}>
+                    <input name=\\"title\\" value=\\"\\" placeholder={[undefined]} maxLength=\\"255\\" onChange={[Function: bound ]} type=\\"text\\" className=\\"form-control\\" />
+                  </Input>
+                  <small className=\\"form-text text-muted\\">
+                    Characters: 0/255
+                  </small>
+                </div>
+              </FormGroup>
+              <FormGroup tag=\\"div\\">
+                <div className=\\"position-relative form-group\\">
+                  <Label for=\\"subject\\" tag=\\"label\\" widths={{...}}>
+                    <label htmlFor=\\"subject\\" className=\\"\\" />
+                  </Label>
+                  <Input type=\\"textarea\\" name=\\"description\\" value=\\"\\" placeholder={[undefined]} onChange={[Function: bound ]} invalid={false}>
+                    <textarea name=\\"description\\" value=\\"\\" placeholder={[undefined]} onChange={[Function: bound ]} className=\\"form-control\\" />
+                  </Input>
+                </div>
+              </FormGroup>
+            </div>
+            <div className=\\"card-1\\">
+              <h4 />
+              <FormGroup tag=\\"div\\">
+                <div className=\\"position-relative form-group\\">
+                  <Label for=\\"exampleFile\\" tag=\\"label\\" widths={{...}}>
+                    <label htmlFor=\\"exampleFile\\" className=\\"\\" />
+                  </Label>
+                  <Input type=\\"file\\" name=\\"image\\" id=\\"exampleFile\\" onChange={[Function: bound ]}>
+                    <input name=\\"image\\" id=\\"exampleFile\\" onChange={[Function: bound ]} type=\\"file\\" className=\\"form-control-file\\" />
+                  </Input>
+                  <FormText color=\\"muted\\" tag=\\"small\\">
+                    <small className=\\"form-text text-muted\\" />
+                  </FormText>
+                </div>
+              </FormGroup>
+            </div>
+            <div className=\\"card-1\\">
+              <Label for=\\"subject\\" tag=\\"label\\" widths={{...}}>
+                <label htmlFor=\\"subject\\" className=\\"\\" />
+              </Label>
+              <FormGroup tag=\\"fieldset\\">
+                <fieldset className=\\"position-relative form-group\\">
+                  <FormGroup check={true} tag=\\"div\\">
+                    <div className=\\"position-relative form-check\\">
+                      <Label check={true} tag=\\"label\\" widths={{...}}>
+                        <label htmlFor={[undefined]} className=\\"form-check-label\\">
+                          <Input type=\\"radio\\" checked={true} name=\\"numbers\\" value=\\"1\\" onChange={[Function: bound ]}>
+                            <input checked={true} name=\\"numbers\\" value=\\"1\\" onChange={[Function: bound ]} type=\\"radio\\" className=\\"form-check-input\\" />
+                          </Input>
+                           
+                        </label>
+                      </Label>
+                    </div>
+                  </FormGroup>
+                  <FormGroup check={true} tag=\\"div\\">
+                    <div className=\\"position-relative form-check\\">
+                      <Label check={true} tag=\\"label\\" widths={{...}}>
+                        <label htmlFor={[undefined]} className=\\"form-check-label\\">
+                          <Input type=\\"radio\\" checked={false} name=\\"numbers\\" value=\\"10\\" onChange={[Function: bound ]}>
+                            <input checked={false} name=\\"numbers\\" value=\\"10\\" onChange={[Function: bound ]} type=\\"radio\\" className=\\"form-check-input\\" />
+                          </Input>
+                           
+                        </label>
+                      </Label>
+                    </div>
+                  </FormGroup>
+                  <FormGroup check={true} tag=\\"div\\">
+                    <div className=\\"position-relative form-check\\">
+                      <Label check={true} tag=\\"label\\" widths={{...}}>
+                        <label htmlFor={[undefined]} className=\\"form-check-label\\">
+                          <Input type=\\"radio\\" checked={false} name=\\"numbers\\" value=\\"50\\" onChange={[Function: bound ]}>
+                            <input checked={false} name=\\"numbers\\" value=\\"50\\" onChange={[Function: bound ]} type=\\"radio\\" className=\\"form-check-input\\" />
+                          </Input>
+                           
+                        </label>
+                      </Label>
+                    </div>
+                  </FormGroup>
+                  <FormGroup check={true} tag=\\"div\\">
+                    <div className=\\"position-relative form-check\\">
+                      <Label check={true} tag=\\"label\\" widths={{...}}>
+                        <label htmlFor={[undefined]} className=\\"form-check-label\\">
+                          <Input type=\\"radio\\" checked={false} name=\\"numbers\\" value=\\"50+\\" onChange={[Function: bound ]}>
+                            <input checked={false} name=\\"numbers\\" value=\\"50+\\" onChange={[Function: bound ]} type=\\"radio\\" className=\\"form-check-input\\" />
+                          </Input>
+                           
+                        </label>
+                      </Label>
+                    </div>
+                  </FormGroup>
+                </fieldset>
+              </FormGroup>
+              <FormGroup tag=\\"div\\">
+                <div className=\\"position-relative form-group\\">
+                  <Label for=\\"subject\\" tag=\\"label\\" widths={{...}}>
+                    <label htmlFor=\\"subject\\" className=\\"\\" />
+                  </Label>
+                  <Input type=\\"textarea\\" name=\\"impact\\" value=\\"\\" onChange={[Function: bound ]} placeholder={[undefined]} invalid={false}>
+                    <textarea name=\\"impact\\" value=\\"\\" onChange={[Function: bound ]} placeholder={[undefined]} className=\\"form-control\\" />
+                  </Input>
+                </div>
+              </FormGroup>
+            </div>
+            <div className=\\"card-1\\">
+              <h4 />
+              <FormGroup tag=\\"div\\">
+                <div className=\\"position-relative form-group\\">
+                  <Label for=\\"subject\\" tag=\\"label\\" widths={{...}}>
+                    <label htmlFor=\\"subject\\" className=\\"\\" />
+                  </Label>
+                  <Input type=\\"text\\" name=\\"source\\" value=\\"\\" onChange={[Function: bound ]} placeholder={[undefined]} invalid={false}>
+                    <input name=\\"source\\" value=\\"\\" onChange={[Function: bound ]} placeholder={[undefined]} type=\\"text\\" className=\\"form-control\\" />
+                  </Input>
+                  <FormText color=\\"muted\\" tag=\\"small\\">
+                    <small className=\\"form-text text-muted\\">
+                      <ul>
+                        <li />
+                        <li />
+                        <li />
+                      </ul>
+                    </small>
+                  </FormText>
+                </div>
+              </FormGroup>
+            </div>
+            <h4 />
+            <div className=\\"action-card action-preview\\">
+              <div className=\\"action-top-details\\">
+                <Row tag=\\"div\\">
+                  <div className=\\"row\\">
+                    <Col md=\\"4\\" tag=\\"div\\" widths={{...}}>
+                      <div className=\\"col-md-4\\">
+                        <Card className=\\"action-img\\" tag=\\"div\\">
+                          <div className=\\"action-img card\\">
+                            <CardImg top={true} width=\\"100%\\" src=\\"global-logo-gray.png\\" alt=\\"[undefined]\\" tag=\\"img\\">
+                              <img width=\\"100%\\" src=\\"global-logo-gray.png\\" alt=\\"[undefined]\\" className=\\"card-img-top\\" />
+                            </CardImg>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                    <Col md=\\"8\\" tag=\\"div\\" widths={{...}}>
+                      <div className=\\"col-md-8\\">
+                        <div className=\\"action-card-body\\">
+                          <div className=\\"action-content\\">
+                            <p className=\\"action-time\\">
+                              March, 2022
+                               
+                              <span>
+                                |
+                              </span>
+                            </p>
+                            <p className=\\"action-area\\">
+                               
+                              [undefined], [undefined]
+                               
+                              <span>
+                                |
+                              </span>
+                            </p>
+                            <p className=\\"action-sector\\">
+                               
+                              [undefined]
+                            </p>
+                          </div>
+                          <div className=\\"action-details\\">
+                            <h3 className=\\"action-title\\">
+                              [undefined]
+                            </h3>
+                            <br />
+                            <p className=\\"action-author\\">
+                               
+                              [undefined]
+                            </p>
+                            <p className=\\"action-desc\\">
+                              [undefined]
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+              </div>
+              <div className=\\"action-footer\\">
+                <Row tag=\\"div\\">
+                  <div className=\\"row\\">
+                    <Col xs=\\"8\\" tag=\\"div\\" widths={{...}}>
+                      <div className=\\"col-8\\">
+                        <div className=\\"footer-desc\\">
+                          <p>
+                             
+                            &quot;[undefined]&quot;
+                             
+                             
+                            [period]
+                          </p>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col xs=\\"4\\" tag=\\"div\\" widths={{...}}>
+                      <div className=\\"col-4\\">
+                        <div className=\\"action-links\\">
+                          <a className=\\"action-icon\\" href=\\"\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                            <span className=\\"footer-text\\">
+                               
+                            </span>
+                            <FontAwesomeIcon icon=\\"arrow-right\\">
+                              <i className=\\"fa\\" />
+                            </FontAwesomeIcon>
+                          </a>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+              </div>
+            </div>
+            <Container tag=\\"div\\">
+              <div className=\\"container\\">
+                <Row tag=\\"div\\">
+                  <div className=\\"row\\">
+                    <Button type=\\"submit\\" color=\\"primary\\" className=\\"primary\\" onClick={[Function: bound ]} disabled={false} tag=\\"button\\">
+                      <button type=\\"submit\\" onClick={[Function: bound onClick]} disabled={false} className=\\"primary btn btn-primary\\" aria-label={{...}} />
+                    </Button>
+                  </div>
+                </Row>
+              </div>
+            </Container>
+          </form>
+        </Form>
+      </div>
+    </Container>
+  </div>
+</ActionForm>"
+`;

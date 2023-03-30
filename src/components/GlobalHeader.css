@@ -1,0 +1,154 @@
+.global-header {
+    background-color: #ffc300;
+    z-index: 1049;
+}
+
+.navbar {
+    min-height: 104px;
+    border-top-width: 6px;
+    border-top-style: solid;
+}
+
+.logo-parent-div{
+    float: left;
+}
+
+.customer-logo-parent-div{
+    float: left;
+    height: 68px;
+    width: 80px;
+    margin-left: -16px;
+    padding: 12px 12px 11px 12px;
+    border-radius: 0px 8px 8px 0px;
+    text-align: center;
+}
+
+.customer-logo {
+    max-width: 100px;
+    max-height: 100%;
+    margin: auto;
+}
+
+.custom-logo{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.customer-logo-nav-link {
+    padding: 0;
+    display: inline-block;
+    height: 100%;
+}
+
+.kuja-kuja-logo-nav-link {
+    padding: 12px 0 0 12px;
+    float: left;
+}
+
+.customer-logo-nav-link span.title-text {
+    font-family: 'Nunito Sans', sans-serif !important;
+    padding-left: 10px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.navbar-toggler {
+    padding: 0;
+    margin-right: 16px;
+    border: none;
+    outline: none;
+}
+
+.global-header .navbar-toggler-icon {
+    width: 32px;
+    margin-right: 0;
+    background-image: url('../img/hamburger.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.powered-by {
+    font-family: 'Nunito Sans', sans-serif !important;
+    background-color: rgb(255, 195, 0);
+    height: 24px;
+    font-size: 11px;
+    padding: 5px 5px 5px 10px;
+    font-weight: 900;
+    border-bottom: 1px solid #e5b200;
+    color: #000000;
+}
+
+nav .navbar-nav li a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #171D21 !important;
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+nav .navbar-nav li a.navbar_active {
+    border-bottom: #171D21 1px solid;
+}
+
+nav .collapse.show .navbar-nav {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+nav .collapse.show .navbar-nav li {
+    padding-left: 24px;
+}
+
+nav .collapse.show .navbar-nav li a {
+    margin: 16px;
+    padding: 0;
+}
+
+.dropdown {
+    padding-top: 8px;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+.dropdown-menu {
+    left: -80px;
+    padding: 20px;
+    min-width: 200px;
+    border-color: #FFFFFF;
+    box-shadow: 0 10px 12px -6px rgba(12, 16, 19, 0.24);
+    border-radius: 8px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #000000;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -7px;
+    left: 117px;
+    border-style: solid;
+    border-width: 0 20px 20px 20px;
+    border-color: transparent transparent #FFFFFF transparent;
+    padding: 0 !important;
+}
+
+@media screen and (min-width: 992px) {
+    .dropdown-menu {
+        left: -150px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .dropdown {
+        padding-left: 16px;
+    }
+
+    .arrow-up {
+        left: 12px;
+    }
+}

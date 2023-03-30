@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="40px" viewBox="0 0 30 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Shelter - No Data</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="3.0.0---Front-End" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-546.000000, -573.000000)">
+            <g id="Markers" transform="translate(376.000000, 533.000000)">
+                <g id="No-Data" transform="translate(170.000000, 40.000000)">
+                    <g id="Shelter---No-Data">
+                        <g id="Marker---No-Data">
+                            <path d="M26.3636364,37.7142857 C26.3636364,38.9771023 21.2080677,40 14.8490178,40 C8.48890198,40 3.33333333,38.9771023 3.33333333,37.7142857 C3.33333333,36.4514691 8.48890198,35.4285714 14.8490178,35.4285714 C21.2080677,35.4285714 26.3636364,36.4514691 26.3636364,37.7142857" id="Shadow" fill-opacity="0.2" fill="#2B3841" fill-rule="evenodd" filter="url(#filter-1)"></path>
+                            <path d="M15.0804718,36.8961678 L24.8853166,25.6455514 C27.5024376,22.9559692 29,19.3164147 29,15.4285714 C29,7.45368523 22.7255838,1 15,1 C7.27441619,1 1,7.45368523 1,15.4285714 C1,19.4471695 2.60069541,23.198365 5.37499141,25.9062641 L5.42617433,25.9600756 L15.0804718,36.8961678 Z" id="Combined-Shape" stroke-opacity="0.16" stroke="#2B3841" stroke-width="2" fill="#CCCCCC" fill-rule="nonzero"></path>
+                        </g>
+                        <path d="M7.45187528,12.6249435 C7.46513029,12.3309233 7.62298539,12.0730532 7.88447055,11.9392981 C9.44012653,11.1415876 14.8686549,8.26766079 14.8686549,7 L15.2687152,7 C15.2687152,8.26525079 20.5875885,11.1319476 22.1263745,11.9344781 C22.3878596,12.0718482 22.5457147,12.3309233 22.5589697,12.6261485 L23,22.5927097 L17.1304413,22.5927097 C15.4097003,22.5927097 14.1058894,17.8811568 13.479289,15.7760205 C13.0298238,14.2613345 12.9045037,13.0587438 12.8695587,12.4960084 L12.8695587,22.1781895 C12.8695587,22.4071396 12.6839886,22.5927097 12.4550384,22.5927097 L7,22.5927097 L7.45187528,12.6249435 Z" id="Shelter" fill-opacity="0.32" fill="#2B3841"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

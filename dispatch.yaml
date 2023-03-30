@@ -1,0 +1,220 @@
+# This file controls how incoming requests are routed to a specific service based on the path or hostname in the URL.
+# Requests are routed to the 'default' service by default (ie: if they don't match any of the rules or if the matching rule specifies an invalid service).
+# For more information see: https://cloud.google.com/appengine/docs/standard/nodejs/how-requests-are-routed#routing_with_a_dispatch_file
+
+dispatch:
+  - url: "api.dev.arc.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.arc.kujakuja.com/*"
+    service: admin
+
+  - url: "api.arc.kujakuja.com/*"
+    service: api
+
+  - url: "admin.arc.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.alight.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.alight.kujakuja.com/*"
+    service: admin
+
+  - url: "api.alight.kujakuja.com/*"
+    service: api
+
+  - url: "admin.alight.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.rotary.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.rotary.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.chatbot.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.chatbot.kujakuja.com/*"
+    service: admin
+
+  - url: "dev.feedback.kujakuja.com/*"
+    service: ejs
+
+  - url: "api.chatbot.kujakuja.com/*"
+    service: api
+
+  - url: "admin.chatbot.kujakuja.com/*"
+    service: admin
+
+  - url: "feedback.kujakuja.com/*"
+    service: ejs
+
+  - url: "api.dev.ofda.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.ofda.kujakuja.com/*"
+    service: admin
+
+  - url: "api.ofda.kujakuja.com/*"
+    service: api
+
+  - url: "admin.ofda.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.crc.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.crc.kujakuja.com/*"
+    service: admin
+
+  - url: "api.crc.kujakuja.com/*"
+    service: api
+
+  - url: "admin.crc.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.nrc.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.nrc.kujakuja.com/*"
+    service: admin
+
+  - url: "api.nrc.kujakuja.com/*"
+    service: api
+
+  - url: "admin.nrc.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.adra.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.adra.kujakuja.com/*"
+    service: admin
+
+  - url: "api.adra.kujakuja.com/*"
+    service: api
+
+  - url: "admin.adra.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.iom.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.iom.kujakuja.com/*"
+    service: admin
+
+  - url: "api.iom.kujakuja.com/*"
+    service: api
+
+  - url: "admin.iom.kujakuja.com/*"
+    service: admin
+
+  - url: "api.ccd.kujakuja.com/*"
+    service: api
+
+  - url: "admin.ccd.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.ccd.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.ccd.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.datos.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.datos.kujakuja.com/*"
+    service: admin
+
+  - url: "api.datos.kujakuja.com/*"
+    service: api
+
+  - url: "admin.datos.kujakuja.com/*"
+    service: admin
+
+  - url: "api.raiseyourvoice.kujakuja.com/*"
+    service: api
+
+  - url: "admin.raiseyourvoice.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.raiseyourvoice.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.raiseyourvoice.kujakuja.com/*"
+    service: admin
+  
+  - url: "api.wbg.kujakuja.com/*"
+    service: api
+
+  - url: "admin.wbg.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.wbg.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.wbg.kujakuja.com/*"
+    service: admin
+  
+  - url: "api.imc.kujakuja.com/*"
+    service: api
+
+  - url: "admin.imc.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.imc.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.imc.kujakuja.com/*"
+    service: admin
+
+  - url: "api.stc.kujakuja.com/*"
+    service: api
+
+  - url: "admin.stc.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.stc.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.stc.kujakuja.com/*"
+    service: admin
+
+  - url: "api.eastafrica.kujakuja.com/*"
+    service: api
+
+  - url: "admin.eastafrica.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.eastafrica.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.eastafrica.kujakuja.com/*"
+    service: admin
+
+  - url: "api.u4u.kujakuja.com/*"
+    service: api
+
+  - url: "admin.u4u.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.u4u.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.u4u.kujakuja.com/*"
+    service: admin
+
+  - url: "api.oram.kujakuja.com/*"
+    service: api
+
+  - url: "admin.oram.kujakuja.com/*"
+    service: admin
+
+  - url: "api.dev.oram.kujakuja.com/*"
+    service: api
+
+  - url: "admin.dev.oram.kujakuja.com/*"
+    service: admin

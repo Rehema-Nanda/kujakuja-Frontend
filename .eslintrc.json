@@ -1,0 +1,68 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "react-app",
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "reportUnusedDisableDirectives": true,
+  "root": true,
+  "rules": {
+    "arrow-body-style": ["warn", "always"],
+    "block-spacing": ["warn", "always"],
+    "brace-style": ["warn", "stroustrup"],
+    "curly": ["error", "all"],
+    "indent": ["warn", 4, {
+      "ArrayExpression": "first",
+      "CallExpression": { "arguments": "first" },
+      "FunctionDeclaration": { "parameters": "first" },
+      "FunctionExpression": { "parameters": "first" },
+      "ImportDeclaration": "first",
+      "ObjectExpression": "first",
+      "SwitchCase": 1
+    }],
+    "max-len": ["warn", {
+      "code": 120,
+      "ignoreStrings": true,
+      "ignoreTrailingComments": true,
+      "ignoreUrls": true
+    }],
+    "no-else-return": ["warn", { "allowElseIf": true }],
+    "no-plusplus": ["warn", { "allowForLoopAfterthoughts": true }],
+    "object-shorthand": ["warn", "consistent"],
+    "quotes": ["warn", "double", {
+      "allowTemplateLiterals": true,
+      "avoidEscape": true
+    }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-indent": ["warn", 4],
+    "react/jsx-indent-props": ["warn", 4],
+    "semi": ["error", "always"],
+    "spaced-comment": ["warn", "always", { "exceptions": ["/"] }]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "linkComponents": [
+      { "name": "Link", "linkAttribute": "to" },
+      { "name": "NavLink", "linkAttribute": "href" }
+    ]
+  }
+}

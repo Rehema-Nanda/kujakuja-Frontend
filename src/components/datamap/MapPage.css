@@ -1,0 +1,704 @@
+.mapboxMap{
+    height: calc(100vh - 104px);
+}
+
+.mapboxgl-popup-content{
+    background: #171D21 !important;
+    color: #FFFFFF;
+    height: 32px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 10px;
+    color: #171D21;
+    letter-spacing: 0;
+    line-height: 24px;
+    border-radius: 6px;
+}
+
+.mapboxgl-popup-content div{
+    color: #FFFFFF;
+    margin-top: -6px;
+    z-index: 999999;
+}
+
+.mapboxgl-popup-tip{
+     border-top-color: #171D21 !important;
+}
+
+.map-datapanel-mobile{
+    display: none;
+}
+
+/* --------- data panel ----------------- */
+
+.map-datapanel-show{
+    width: 288px;
+    height: calc(100vh - 265px);
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 18px 24px -6px rgba(23,29,33,0.14);
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    z-index: 1040;
+    transition: 0.3s;
+}
+
+.map-datapanel-hide{
+    width: 288px;
+    height: calc(100vh - 265px);
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 18px 24px -6px rgba(23,29,33,0.14);
+    position: absolute;
+    bottom: 16px;
+    right: -288px;
+    z-index: 1049;
+    transition: 0.3s;
+}
+
+.map-datapanel-datacontainer{
+    border-bottom: 1px solid #F5F5F5;
+    padding: 16px;
+    display: flex;
+}
+
+.map-datapanel-face{
+    width: 112px;
+    height: 112px;
+    margin: 0 auto;
+    margin-top: -56px;
+}
+
+.map-datapanel-locations{
+    width: 100%;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.map-datapanel-detailcontainer{
+    padding: 16px;
+    box-sizing: border-box;
+    height: calc(100vh - 484px);
+    overflow-y: scroll;
+}
+
+.map-datapanel-collapse{
+    border: 3px solid #F5F5F5;
+    border-radius: 6px;
+}
+
+.map-datapanel-collapse p{
+    padding: 16px;
+}
+
+.map-datapanel-collapse .collapse-button{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    background-color: #F5F5F5;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 0px;
+    color: #171D21;
+    font-size: 12px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.collapse-button span{
+    padding-left: 32px;
+    color: #CCCCCC;
+    position: absolute;
+    right: 24px;
+}
+
+.collapse-button:focus, .collapse-button:active{
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #F5F5F5 !important;
+    margin-bottom: 1px;
+}
+
+.daily-breakdown-container{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding: 8px;
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.daily-breakdown{
+    height: 155px;
+    width: 80px;
+    margin: 8px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.daily-spacer{
+    margin-right: 16px;
+}
+
+.daily-container{
+    width: 100%;
+    height: 133px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: 3px solid #F5F5F5;
+    position: absolute;
+    bottom: 0;
+}
+
+.daily-face{
+    height: 48px;
+    width: 48px;
+    margin: 0px auto;
+    margin-top: -24px;
+}
+
+.daily-face img{
+    height: 48px;
+    width: 48px;
+}
+
+.daily-percent{
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.daily-delta{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -4px;
+}
+
+.daily-date{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    background-color: #F5F5F5;
+    position: absolute;
+    bottom: 0;
+    height: 32px;
+    padding-top: 8px;
+}
+
+.themebubble-container{
+    height: 240px;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.themebubbles-modal .modal-content{
+    width: 600px !important;
+    left: calc(50% - 300px);
+}
+
+.themebubbles-modal-container{
+    height: 500px;
+    width: 100%;
+    padding: 8px;
+}
+
+svg.theme-bubbles {
+    width: 100%;
+    height: 100%;
+}
+
+svg.theme-bubbles .node--leaf {
+    fill: white;
+    fill-opacity: 0.25;
+}
+
+svg.theme-bubbles .label {
+    font: 12px 'Open Sans', sans-serif;
+    text-anchor: middle;
+}
+
+svg.theme-bubbles .label, svg.theme-bubbles .node--root, svg.theme-bubbles .node--leaf {
+    pointer-events: none;
+}
+
+svg.theme-bubbles.interactive {
+}
+
+svg.theme-bubbles.interactive .node {
+    cursor: pointer;
+}
+
+svg.theme-bubbles.interactive .node:hover {
+    stroke: #C0C0C0;
+    stroke-width: 1.5px;
+}
+
+.business-container{
+    padding: 16px;
+}
+
+.business-item{
+    width: 100%;
+    height: 30px;
+}
+
+.business-item-date{
+    width: 48px;
+    display: inline-block;
+}
+
+.business-item-date p{
+    margin: 0px;
+    padding: 8px;
+    text-align: left;
+}
+
+.business-item-bar{
+    width: calc(100% - 50px);
+    display: inline-block;
+}
+
+.business-bar-color{
+    background: rgba(43,56,65,0.80);
+}
+
+.business-bar-bg{
+    background-color: #F5F5F5;
+}
+
+.business-bar{
+    height: 8px;
+}
+
+.photo-gallery-modal .modal-content {
+    width: 800px !important;
+    left: calc(50% - 400px);
+}
+
+.photo-gallery-modal-container {
+    width: 100%;
+    padding: 8px;
+}
+
+.gallery-image-container.padded {
+    padding: 16px;
+}
+
+.gallery-image-container img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.gallery-image-container.interactive img {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+//////////////////////////////////
+// mobile
+/////////////////////////////////
+*/
+
+/* data panel width for lg screens */
+@media only screen and (min-width: 1600px) {
+
+    .map-datapanel-show{
+        width: 360px;
+    }
+
+    .map-datapanel-hide{
+        width: 360px;
+        right: -360px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .mapboxMap{
+        height: calc(100vh - 300px);
+    }
+
+    .mapboxMap button {
+       display: none;
+    }
+
+    .mapboxgl-ctrl-bottom-left button {
+       display: none;
+    }
+
+    /* --------- data panel ----------------- */
+
+    .map-datapanel-desktop{
+        display: none;
+    }
+
+    .map-datapanel-mobile{
+        display: block;
+        width: 100%;
+        background-color: #FFFFFF;
+        box-shadow: 0 18px 24px -6px rgba(23,29,33,0.14);
+        position: absolute;
+        top: calc(100vh - 200px);
+        z-index: 1044;
+        transition: 0.3s;
+    }
+
+    .map-datapanel-detailcontainer-mobile{
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------- markers ------------- */
+
+.marker-country-green{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/country-green.svg');
+    cursor: pointer;
+}
+
+.marker-country-red{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/country-red.svg');
+    cursor: pointer;
+}
+
+.marker-country-nodata{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/country-nodata.svg');
+    cursor: pointer;
+}
+
+.marker-country-unselected{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/country-unselected.svg');
+    cursor: pointer;
+}
+
+.marker-water-green{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/water-green.svg');
+    cursor: pointer;
+}
+
+.marker-water-red{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/water-red.svg');
+    cursor: pointer;
+}
+
+.marker-water-nodata{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/water-nodata.svg');
+    cursor: pointer;
+}
+
+.marker-water-unselected{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/water-unselected.svg');
+    cursor: pointer;
+}
+
+.marker-shelter-green{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/shelter-green.svg');
+    cursor: pointer;
+}
+
+.marker-shelter-red{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/shelter-red.svg');
+    cursor: pointer;
+}
+
+.marker-shelter-nodata{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/shelter-nodata.svg');
+    cursor: pointer;
+}
+
+.marker-shelter-unselected{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/shelter-unselected.svg');
+    cursor: pointer;
+}
+
+.marker-nutrition-green{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/nutrition-green.svg');
+    cursor: pointer;
+}
+
+.marker-nutrition-red{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/nutrition-red.svg');
+    cursor: pointer;
+}
+
+.marker-nutrition-nodata{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/nutrition-nodata.svg');
+    cursor: pointer;
+}
+
+.marker-nutrition-unselected{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/nutrition-unselected.svg');
+    cursor: pointer;
+}
+
+.marker-healthcare-green{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/health-green.svg');
+    cursor: pointer;
+}
+
+.marker-healthcare-red{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/health-red.svg');
+    cursor: pointer;
+}
+
+.marker-healthcare-nodata{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/health-nodata.svg');
+    cursor: pointer;
+}
+
+.marker-healthcare-unselected{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/health-unselected.svg');
+    cursor: pointer;
+}
+
+.marker-protection-green{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/protection-green.svg');
+    cursor: pointer;
+}
+
+.marker-protection-red{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/protection-red.svg');
+    cursor: pointer;
+}
+
+.marker-protection-nodata{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/protection-nodata.svg');
+    cursor: pointer;
+}
+
+.marker-protection-unselected{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/protection-unselected.svg');
+    cursor: pointer;
+}
+
+.marker-communitypulse-green{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/pulse-green.svg');
+    cursor: pointer;
+}
+
+.marker-communitypulse-red{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/pulse-red.svg');
+    cursor: pointer;
+}
+
+.marker-communitypulse-nodata{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/pulse-nodata.svg');
+    cursor: pointer;
+}
+
+.marker-communitypulse-unselected{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/pulse-unselected.svg');
+    cursor: pointer;
+}
+
+.marker-live-green{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/live-green.svg');
+    cursor: pointer;
+}
+
+.marker-live-red{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/live-red.svg');
+    cursor: pointer;
+}
+
+.marker-live-nodata{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/live-nodata.svg');
+    cursor: pointer;
+}
+
+.marker-live-unselected{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/live-unselected.svg');
+    cursor: pointer;
+}
+
+.marker-generic-green{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/generic-green.svg');
+    cursor: pointer;
+}
+
+.marker-generic-red{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/generic-red.svg');
+    cursor: pointer;
+}
+
+.marker-generic-nodata{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/generic-nodata.svg');
+    cursor: pointer;
+}
+
+.marker-groupactivities-green{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/groupactivities-green.svg');
+    cursor: pointer;
+}
+
+.marker-groupactivities-red{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/groupactivities-red.svg');
+    cursor: pointer;
+}
+
+.marker-groupactivities-nodata{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/groupactivities-nodata.svg');
+    cursor: pointer;
+}
+
+.marker-groupactivities-unselected{
+    height: 40px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('../../img/markers/groupactivities-unselected.svg');
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionFeedCard component renders correctly 1`] = `
+"<ActionFeedCard action={{...}}>
+  <div className=\\"action-card\\">
+    <div className=\\"action-top-details\\">
+      <Row tag=\\"div\\">
+        <div className=\\"row\\">
+          <Col md=\\"4\\" tag=\\"div\\" widths={{...}}>
+            <div className=\\"col-md-4\\">
+              <Card className=\\"action-img\\" tag=\\"div\\">
+                <div className=\\"action-img card\\">
+                  <CardImg top={true} width=\\"100%\\" src=\\"https://firebasestorage.googleapis.com/v0/b/kuja-kujans-survey-ecdb7.appspot.com/o/img3.jpg?alt=media&token=2627c138-258f-42d4-8ccf-254fb932b778\\" alt=\\"\\" tag=\\"img\\">
+                    <img width=\\"100%\\" src=\\"https://firebasestorage.googleapis.com/v0/b/kuja-kujans-survey-ecdb7.appspot.com/o/img3.jpg?alt=media&token=2627c138-258f-42d4-8ccf-254fb932b778\\" alt=\\"\\" className=\\"card-img-top\\" />
+                  </CardImg>
+                </div>
+              </Card>
+            </div>
+          </Col>
+          <Col md=\\"8\\" tag=\\"div\\" widths={{...}}>
+            <div className=\\"col-md-8\\">
+              <div className=\\"action-card-body\\">
+                <div className=\\"action-content\\">
+                  <p className=\\"action-time\\">
+                    October, 2020
+                     
+                    <span>
+                      |
+                    </span>
+                  </p>
+                  <p className=\\"action-area\\">
+                     
+                    Mahama, Rwanda
+                     
+                    <span>
+                      |
+                    </span>
+                  </p>
+                  <p className=\\"action-sector\\">
+                     
+                    Nutrition Service
+                  </p>
+                </div>
+                <div className=\\"action-details\\" lang=\\"undefined-x-mtfrom-undefined\\">
+                  <h3 className=\\"action-title\\">
+                    The ALIGHT Health Service Team has implemented an action
+                  </h3>
+                  <br />
+                  <p className=\\"action-author\\">
+                     
+                    John Doe
+                  </p>
+                  <p className=\\"action-desc\\">
+                    there were no materials for a sustainable solution. Therefore, a Technical Team has been sent to build those stairs to help customers be safe from the accidents the place was causing them and now they are comfortably fetching water standing on that side.there were no materials for a sustainable solution. Therefore, a Technical Team has been sent to build those stairs to help customers be safe from the accidents the place was
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </div>
+    <div className=\\"action-footer\\">
+      <Row tag=\\"div\\">
+        <div className=\\"row\\">
+          <Col xs=\\"8\\" tag=\\"div\\" widths={{...}}>
+            <div className=\\"col-8\\">
+              <div className=\\"footer-desc\\">
+                <p>
+                   
+                  &quot;#porridge&quot;
+                   
+                   
+                  October - October, 2020
+                </p>
+              </div>
+            </div>
+          </Col>
+          <Col xs=\\"4\\" tag=\\"div\\" widths={{...}}>
+            <div className=\\"col-4\\">
+              <div className=\\"action-links\\">
+                <a className=\\"action-icon\\" href=\\"https://dev.alight.kujakuja.com/en/ideafeed?start=2020-10-01&end=2020-10-31&settlements=16&keyword=water&limit=50&page=1\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                  <span className=\\"footer-text\\">
+                     
+                  </span>
+                  <FontAwesomeIcon icon=\\"arrow-right\\">
+                    <i className=\\"fa\\" />
+                  </FontAwesomeIcon>
+                </a>
+              </div>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </div>
+  </div>
+</ActionFeedCard>"
+`;

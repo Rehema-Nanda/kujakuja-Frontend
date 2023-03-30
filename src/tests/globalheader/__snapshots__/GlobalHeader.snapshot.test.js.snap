@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <nav
+    className="global-header navbar navbar-expand-lg"
+    style={
+      Object {
+        "borderTopColor": "#FFC300",
+      }
+    }
+  >
+    <div
+      className="logo-parent-div"
+    >
+      <a
+        aria-current="page"
+        className="kuja-kuja-logo-nav-link nav-link active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        <img
+          alt="Logo"
+          className="customer-logo"
+          src={
+            Object {
+              "ReactComponent": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "render": [Function],
+              },
+              "__esModule": true,
+              "default": "global-logo-dark.svg",
+            }
+          }
+        />
+      </a>
+    </div>
+    <button
+      className="navbar-toggler"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      style={Object {}}
+    >
+      <ul
+        className="ml-auto navbar-nav"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/graph"
+            onClick={[Function]}
+          />
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/ideafeed"
+            onClick={[Function]}
+          />
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/actionfeed"
+            onClick={[Function]}
+          />
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/datamap"
+            onClick={[Function]}
+          />
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/snapshots"
+            onClick={[Function]}
+          />
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="http://admin.localhost/"
+          />
+        </li>
+        <li
+          className="nav-item"
+        >
+          <div
+            className="dropdown"
+            onKeyDown={[Function]}
+          >
+            <span
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="dropdown-toggle"
+              data-toggle="dropdown"
+              onClick={[Function]}
+            >
+              <span
+                className="sr-only"
+              >
+                Toggle Dropdown
+              </span>
+            </span>
+            <div
+              aria-hidden={true}
+              className="dropdown-menu"
+              role="menu"
+              tabIndex="-1"
+            >
+              <div
+                className="arrow-up"
+              />
+              <button
+                className="dropdown-item"
+                onClick={[Function]}
+                tabIndex="0"
+                type="button"
+                value="en"
+              >
+                English
+              </button>
+              <button
+                className="dropdown-item"
+                onClick={[Function]}
+                tabIndex="0"
+                type="button"
+                value="es"
+              >
+                Español
+              </button>
+              <button
+                className="dropdown-item"
+                onClick={[Function]}
+                tabIndex="0"
+                type="button"
+                value="sw"
+              >
+                Swahili
+              </button>
+              <button
+                className="dropdown-item"
+                onClick={[Function]}
+                tabIndex="0"
+                type="button"
+                value="ru"
+              >
+                Russian
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+`;

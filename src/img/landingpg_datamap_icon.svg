@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="99px" viewBox="0 0 98 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="32" cy="32" r="32"></circle>
+        <filter x="-65.6%" y="-37.5%" width="231.2%" height="231.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="3" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="18" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0901960784   0 0 0 0 0.11372549   0 0 0 0 0.129411765  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="3.0.0---Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Landing-Page" transform="translate(-671.000000, -886.000000)" fill-rule="nonzero">
+            <g id="Section---Dashboard" transform="translate(196.000000, 886.000000)">
+                <g id="Section-Copy">
+                    <g id="Icon" transform="translate(492.000000, 0.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFC300" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="map-marker-alt" transform="translate(19.692308, 17.723077)" fill="#FFFFFF">
+                            <path d="M10.6011077,30.872 C1.65969231,17.9096 0,16.5792615 0,11.8153846 C0,5.28990769 5.28990769,0 11.8153846,0 C18.3408615,0 23.6307692,5.28990769 23.6307692,11.8153846 C23.6307692,16.5792615 21.9710769,17.9096 13.0296615,30.872 C12.4428923,31.7196308 11.1878154,31.7195692 10.6011077,30.872 Z M11.8153846,16.7384615 C14.5343385,16.7384615 16.7384615,14.5343385 16.7384615,11.8153846 C16.7384615,9.09643077 14.5343385,6.89230769 11.8153846,6.89230769 C9.09643077,6.89230769 6.89230769,9.09643077 6.89230769,11.8153846 C6.89230769,14.5343385 9.09643077,16.7384615 11.8153846,16.7384615 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

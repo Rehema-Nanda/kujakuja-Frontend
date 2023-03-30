@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataStudioGraphPage component render correctly 1`] = `
+"<BrowserRouter>
+  <Router history={{...}}>
+    <DataStudioGraphPage>
+      <div style={{...}}>
+        <iframe title=\\"graph\\" width=\\"1000\\" height=\\"800\\" src=\\"https://kujakuja.com\\" frameBorder=\\"0\\" style={{...}} allowFullScreen={true} />
+      </div>
+    </DataStudioGraphPage>
+  </Router>
+</BrowserRouter>"
+`;

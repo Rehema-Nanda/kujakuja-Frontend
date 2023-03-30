@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Shelter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="3.0.0---Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Map--UI" transform="translate(-968.000000, -147.000000)" fill="#CCCCCC">
+            <g id="Map-Nav" transform="translate(24.000000, 120.000000)">
+                <g id="Service-Buttons" transform="translate(788.000000, 16.000000)">
+                    <g id="Shelter-Button" transform="translate(144.000000, 0.000000)">
+                        <path d="M12.4926584,17.1326121 C12.5071097,16.8120556 12.6792117,16.5309119 12.9642968,16.385085 C14.6603555,15.5153787 20.5788253,12.3820711 20.5788253,11 L21.0149923,11 C21.0149923,12.3794436 26.8139104,15.5048686 28.4915765,16.37983 C28.7766615,16.5295981 28.9487635,16.8120556 28.9632148,17.1339258 L29.4440495,28 L23.044745,28 C21.1687017,28 19.7472179,22.8632148 19.0640649,20.5680835 C18.574034,18.9166924 18.4374034,17.6055641 18.3993045,16.9920402 L18.3993045,27.548068 C18.3993045,27.7976816 18.1969861,28 17.9473725,28 L12,28 L12.4926584,17.1326121 Z" id="Shelter"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

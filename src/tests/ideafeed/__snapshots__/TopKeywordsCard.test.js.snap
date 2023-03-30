@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopKeywordsCard component renders correctly 1`] = `
+"<TopKeywordsCard negativeKeywords={{...}} positiveKeywords={{...}} handleKeywordSelect={[Function: mockConstructor]} ideaSearchString=\\"\\" clearIdeaSearchString={[Function: mockConstructor]}>
+  <div>
+    <div className=\\"satisfaction-keywords\\">
+      <div className=\\"header\\">
+        <Row tag=\\"div\\">
+          <div className=\\"row\\">
+            <Col xs=\\"8\\" className=\\"header-title\\" tag=\\"div\\" widths={{...}}>
+              <div className=\\"header-title col-8\\">
+                :
+                 
+                <span className=\\"selected-keywords\\">
+                  (
+                  )
+                </span>
+              </div>
+            </Col>
+            <Col xs=\\"4\\" className=\\"header-toggle\\" tag=\\"div\\" widths={{...}}>
+              <div className=\\"header-toggle col-4\\">
+                <span className=\\"options\\" onClick={[Function: mockConstructor]} role=\\"presentation\\" />
+              </div>
+            </Col>
+          </div>
+        </Row>
+      </div>
+      <div className=\\"keywords-container\\">
+        <div className=\\"keywords\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col xs=\\"1\\" tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-1\\">
+                  <div className=\\"satisfaction-face\\">
+                    <img src={{...}} alt=\\"\\" />
+                  </div>
+                </div>
+              </Col>
+              <Col className=\\"keywords-column\\" tag=\\"div\\" widths={{...}}>
+                <div className=\\"keywords-column col\\">
+                  <p className=\\"no-results\\" />
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+        <div className=\\"keywords top-border\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col xs=\\"1\\" tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-1\\">
+                  <div className=\\"satisfaction-face\\">
+                    <img src={{...}} alt=\\"\\" />
+                  </div>
+                </div>
+              </Col>
+              <Col className=\\"keywords-column\\" tag=\\"div\\" widths={{...}}>
+                <div className=\\"keywords-column col\\">
+                  <span className=\\"no-results\\" />
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </div>
+    </div>
+  </div>
+</TopKeywordsCard>"
+`;
